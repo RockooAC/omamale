@@ -1,0 +1,24 @@
+qdrant-client
+llama-index
+llama-parse
+llama-index-core
+llama-index-embeddings-ollama
+llama-index-readers-confluence
+llama-index-readers-web
+llama-index-readers-file
+llama-index-readers-llama-parse
+llama-index-vector-stores-qdrant
+llama-index-storage-docstore-redis
+llama-index-storage-kvstore-redis
+llama-index-storage-index-store-redis
+redis
+html2text
+beautifulsoup4
+langdetect
+fastembed
+
+
+# Dependency conflict, install on pipeline directly
+# grobid-client
+# spacy
+# transformers[torch]

@@ -1,0 +1,16 @@
+EMBEDDER_BASE_URL = "http://10.255.246.131:11434"
+EMBEDDER_BASE_JINA_URL = "http://10.255.246.131:11435"
+EMBEDDER_MODEL_GWEN = "gte-qwen2.5-instruct-q5"
+EMBEDDER_MODEL_JINA = "jina/jina-embeddings-v2-base-en:latest"
+
+QDRANT_BASE_URL = "http://10.1444.5.138:6333"
+
+REDIS_HOST = "10.255.240.18"
+REDIS_PORT = 6379
+
+MAX_TOKEN_LENGTH = 512
+CHUNK_SIZE = 1024
+CHUNK_OVERLAP = 256
+
+
+CONFLUENCE_BASE_URL = "https://confluence.redge.com"
