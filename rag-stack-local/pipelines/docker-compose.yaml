@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  pipelines:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pipelines
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [ gpu ]
+              device_ids: [ 'GPU-c334fdf9-535c-dcf1-4c4e-b44f09c96290' ]
+    restart: always
+    ports:
+      - "9099:9099"
+#    volumes:
+#      - pipelines-data:/app/pipelines
+    networks:
+      - net
+
+networks:
+  net:
+    driver: bridge
+
+#volumes:
+#  pipelines-data:
+#    driver: local

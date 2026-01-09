@@ -1,0 +1,94 @@
+version: '3.8'
+
+x-langfuse-env: &langfuse-env
+  LANGFUSE_PUBLIC_KEY: "pk-lf-d1bfaf5d-73ab-454c-a708-8c0acaa7e857"
+  LANGFUSE_SECRET_KEY: "sk-lf-10febb8b-1510-48bf-abf7-e6e3a755a0ae"
+  LANGFUSE_HOST: "http://10.255.240.149:3000"
+
+services:
+  multiagent:
+    container_name: agents-multiagent
+    build:
+      context: ./multiagent
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./multiagent:/app
+      - ./utils:/app/utils
+    environment:
+      FLASK_ENV: development
+      ORACLE_AGENT_URL: http://10.255.240.149:5001/chat/completions  # c24
+      FINAL_ANSWER_AGENT: http://10.255.240.149:5004/chat/completions  # c24
+      SOFTWARE_DEVELOPER_AGENT: http://10.255.240.149:5003/chat/completions  # c24
+      OTT_SPECIALIST_AGENT: http://10.255.240.149:5002/chat/completions  # c24
+      DEBUG_MODE: "True"
+      <<: *langfuse-env
+
+  oracle:
+    container_name: agents-oracle
+    build:
+      context: ./oracle
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./oracle:/app
+      - ./utils:/app/utils
+    environment:
+      FLASK_ENV: development
+      OLLAMA_URL: http://10.255.240.151:11434  # FIXME -> ob host for NOW, move to mw host
+      OLLAMA_MODEL: "qwen3:4b-instruct"
+      DEBUG_MODE: "True"
+      <<: *langfuse-env
+  
+  ott-specialist:
+    container_name: agents-ott-specialist
+    build:
+      context: ./ott_specialist
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5000"
+    volumes:
+      - ./ott_specialist:/app
+      - ./utils:/app/utils
+    environment:
+      FLASK_ENV: development
+      OPEN_AI_URL: http://10.255.240.156:9099
+      OPEN_AI_MODEL: pipelineRedgeAssistant
+      DEBUG_MODE: "True"
+      <<: *langfuse-env
+
+  software-developer:
+    container_name: agents-software-developer
+    build:
+      context: ./software-developer
+      dockerfile: Dockerfile
+    ports:
+      - "5003:5000"
+    volumes:
+      - ./software-developer:/app
+      - ./utils:/app/utils
+    environment:
+      FLASK_ENV: development
+      OPEN_AI_URL: http://10.255.240.156:9099
+      OPEN_AI_MODEL: pipelineCodeAssistant
+      DEBUG_MODE: "True"
+      <<: *langfuse-env
+
+  final-answer:
+    container_name: agents-final-answer
+    build:
+      context: ./final-answer
+      dockerfile: Dockerfile
+    ports:
+      - "5004:5000"
+    volumes:
+      - ./final-answer:/app
+      - ./utils:/app/utils
+    environment:
+      FLASK_ENV: development
+      OLLAMA_URL: http://10.255.240.156:11434
+      OLLAMA_MODEL: qwen3:30b  # FIXME -> to be refactored into dynamic [ take LLM that was queried by underlying agent ]
+      DEBUG_MODE: "True"
+      <<: *langfuse-env

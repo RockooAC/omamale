@@ -1,0 +1,34 @@
+version: '3.9'
+
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: always
+    environment:
+      - WEBUI_NAME=dsw-open-webui
+      - ENV=dev
+      - PORT=8081
+      - OLLAMA_BASE_URL=http://10.13.16.50:11434
+      - VECTOR_DB=qdrant
+      - QDRANT_URI=http://10.13.16.50:6333
+      - ENABLE_RAG_WEB_SEARCH=True
+      - RAG_WEB_SEARCH_ENGINE="searxng"
+      - SEARXNG_QUERY_URL="http://10.13.16.50:8006/search?q=<query>"
+      - ENABLE_RAG_LOCAL_WEB_FETCH=true
+      - DOCS_DIR=/data/docs
+    ports:
+      - "8080:8081"
+    volumes:
+      - open-webui:/app/backend/data
+      - /opt/wrk/git/rg/doc/docusaurus/redgemedia/documentation:/data/docs
+    networks:
+      - net
+
+networks:
+  net:
+    driver: bridge
+
+volumes:
+  open-webui:
+    driver: local

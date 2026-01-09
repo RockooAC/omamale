@@ -1,0 +1,281 @@
+================
+File: server/TLLV.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+
+#include <rg/core/Common.h>
+#include <vector>
+
+namespace rg {
+
+class TLLV
+{
+public:
+	/// Size of random padding that will be appended to TLLV byte stream during serialization
+	static const unsigned cMaxPaddingSize = 64;
+	/// Size of the TLLV block
+	static const unsigned cTLLVBlockSize = 4;
+	/// Size of the TLLV value
+	static const unsigned cTLLVValueSize = 4;
+
+	typedef uint64 TLLVTag;
+
+	static const unsigned cTLLVHeaderSize = sizeof(TLLVTag) + cTLLVBlockSize + cTLLVValueSize;
+	static const unsigned cTLLVMinBlockSize = 16;
+
+	/** deserialize TLLV from byte stream */
+	int deserialize(const uint8 *buf, unsigned size);
+
+	void fillPadding();
+
+	/** get size that the byte stream would occupy after serialization */
+	unsigned serializeGetSize();
+	/** serialize TLLV from members */
+	result_t serialize(uint8 *buf, unsigned size);
+
+	TLLVTag iTag; /// TLLV tag
+	std::vector< uint8 > iValue; /// TLLV value bytes
+	std::vector< uint8 > iPadding;
+};
+
+enum TLLVSPCTagValues
+{
+	eSKR1 = 0x3d1a10b8bffac2ec,
+	eSKR1Integrity = 0xb349d4809e910687,
+	eARSeed = 0x89c90f12204106b2,
+	eR2 = 0x71b5595ac1521133,
+	eTagReturnRequest = 0x19f9d4e5ab7609cb,
+	eAssetId = 0x1bf7f53f5d5d5a1f,
+	eTransactionId = 0x47aa7ad3440577de,
+	eProtocolVersionsSupported = 0x67b8fb79ecce1a13,
+	eProtocolVersionUsed = 0x5d81bcbcc7f61703,
+	eStreamingIndicator = 0xabb0256a31843974,
+	eMediaPlaybackState = 0xeb8efdf2b25ab3a0,
+};
+
+enum TLLVCKCTagValues
+{
+	eEncryptedCK = 0x58b38165af0e3d5a,
+	eR1 = 0xea74c4645d5efee9,
+	eCKDuration = 0x47acf6a418cd091a,
+	eHDCPEnforcement = 0x2e52f1530d8ddb4a,
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+
+================
+File: server/TLLV.cpp
+================
+#include "TLLV.h"
+#include <cstdlib>
+
+namespace rg {
+
+int TLLV::deserialize(const uint8 *buf, unsigned size)
+{
+	if (size < cTLLVHeaderSize + cTLLVMinBlockSize) {
+		return RES_INVARG;
+	}
+
+	unsigned bytesLeft = size;
+	unsigned offset = 0;
+	const uint8 *ptr = buf;
+
+	TLLVTag tag = ( uint64 ) *ptr++ << 56;
+	tag |= ( uint64 ) *ptr++ << 48;
+	tag |= ( uint64 ) *ptr++ << 40;
+	tag |= ( uint64 ) *ptr++ << 32;
+	tag |= ( uint64 ) *ptr++ << 24;
+	tag |= ( uint64 ) *ptr++ << 16;
+	tag |= ( uint64 ) *ptr++ << 8;
+	tag |= ( uint64 ) *ptr++;
+	offset += sizeof(tag);
+	bytesLeft -= sizeof(tag);
+
+	uint32 blockSize = ( uint32 ) *ptr++ << 24;
+	blockSize |= ( uint32 ) *ptr++ << 16;
+	blockSize |= ( uint32 ) *ptr++ << 8;
+	blockSize |= ( uint32 ) *ptr++;
+	offset += sizeof(blockSize);
+	bytesLeft -= sizeof(blockSize);
+
+	uint32 valueSize = ( uint32 ) *ptr++ << 24;
+	valueSize |= ( uint32 ) *ptr++ << 16;
+	valueSize |= ( uint32 ) *ptr++ << 8;
+	valueSize |= ( uint32 ) *ptr++;
+	offset += sizeof(valueSize);
+	bytesLeft -= sizeof(valueSize);
+
+	if (blockSize % cTLLVMinBlockSize != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV Block size must be a multiple of 16, actual value %d", blockSize);
+		return RES_INVARG;
+	}
+
+	if (valueSize > blockSize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV value size exceeds block size: vs %d, bs %d", valueSize, blockSize);
+		return RES_INVARG;
+	}
+
+	if (blockSize > bytesLeft) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV block size exceeds payload length: bs %d, pl %d", blockSize, bytesLeft);
+		return RES_INVARG;
+	}
+
+	iTag = tag;
+	iValue.clear();
+	iValue.insert(iValue.end(), ptr, ptr + valueSize);
+
+	if (blockSize > valueSize)
+		iPadding.insert(iPadding.end(), ptr + valueSize, ptr + blockSize);
+
+	offset += blockSize;
+
+	return offset;
+}
+
+void TLLV::fillPaddings()
+{
+	iPadding.clear();
+	unsigned padBytes = cMaxPaddingSize - iValue.size() % cMaxPaddingSize;
+	if (padBytes != 0) {
+		iPadding.reserve(padBytes);
+		for (unsigned ii = 0; ii < padBytes; ++ii) {
+			iPadding.push_back(rand() % 256);
+		}
+	}
+}
+
+unsigned TLLV::serializeGetSizes()
+{
+	return cTLLVHeaderSize + iValue.size() + iPadding.size();
+}
+
+result_t TLLV::serialize(uint8 *buf, unsigned size)
+{
+	if (size < serializeGetSize())
+		return RES_INVARG;
+
+	uint8 *ptr = buf;
+	*ptr++ = (iTag >> 56) & 0xff;
+	*ptr++ = (iTag >> 48) & 0xff;
+	*ptr++ = (iTag >> 40) & 0xff;
+	*ptr++ = (iTag >> 32) & 0xff;
+	*ptr++ = (iTag >> 24) & 0xff;
+	*ptr++ = (iTag >> 16) & 0xff;
+	*ptr++ = (iTag >> 8) & 0xff;
+	*ptr++ = iTag & 0xff;
+
+	uint32 blockLen = iPadding.size() + iValue.size();
+	uint32 valueLen = iValue.size();
+
+	*ptr++ = (blockLen >> 24) & 0xff;
+	*ptr++ = (blockLen >> 16) & 0xff;
+	*ptr++ = (blockLen >> 8) & 0xff;
+	*ptr++ = blockLen & 0xff;
+
+	*ptr++ = (valueLen >> 24) & 0xff;
+	*ptr++ = (valueLen >> 16) & 0xff;
+	*ptr++ = (valueLen >> 8) & 0xff;
+	*ptr++ = valueLen & 0xff;
+
+	memcpy(ptr, iValue.data(), iValue.size());
+	ptr += iValue.size();
+
+	memcpy(ptr, iPadding.data(), iPadding.size());
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: server/Utils.cpp
+================
+#include "Utils.h"
+#include <fstream>
+
+namespace rg {
+
+result_t readFileToVector(const std::string &path, std::vector< uint8 > &contents)
+{
+	FILE *fp = fopen(path.c_str(), "rb");
+	if (fp == NULL) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Error opening file: %s", path.c_str());
+		return RES_NOENT;
+	}
+	fseek(fp, 0, SEEK_END);
+	unsigned size = ftell(fp);
+	fseek(fp, 0, SEEK_SET);
+	contents.resize(size);
+	if (size == 0) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Empty file: %s", path.c_str());
+		return RES_NOENT;
+	}
+
+	if (fread(contents.data(), size, 1, fp) != 1) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Error reading file: %s", path.c_str());
+		fclose(fp);
+		return RES_IOERR;
+	}
+	fclose(fp);
+
+	return RES_OK;
+}
+
+result_t readFileToString(const std::string &path, std::string &contents)
+{
+	std::ifstream file(path);
+	if (!file.is_open())
+		return RES_IOERR;
+
+	file.seekg(0, std::ios::end);
+	contents.reserve(file.tellg());
+	file.seekg(0, std::ios::beg);
+
+	contents.assign((std::istreambuf_iterator< char >(file)), std::istreambuf_iterator< char >());
+	return RES_OK;
+}
+
+}; // end namespace rg
+
+================
+File: server/Utils.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+
+#include <rg/core/Common.h>
+
+namespace rg {
+
+result_t readFileToVector(const std::string &path, std::vector< uint8 > &contents);
+
+result_t readFileToString(const std::string &path, std::string &contents);
+
+} // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+
+================
+File: server/Version.cpp
+================
+#include "Version.h"
+#include <iomanip>
+#include <sstream>
+
+static const unsigned sVerMajor = 1;
+static const unsigned sVerMinor = 2;
+
+static const std::string sVerRc = "rc1";
+
+std::string versionString()
+{
+	std::stringstream stream;
+	stream << sVerMajor << "." << std::setfill('0') << std::setw(2) << sVerMinor;
+	if (!sVerRc.empty())
+		stream << "." << sVerRc;
+	return stream.str();
+}

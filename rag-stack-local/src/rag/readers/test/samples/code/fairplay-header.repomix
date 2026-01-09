@@ -1,0 +1,143 @@
+
+================
+File: ckc-gen/FPSHandler.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+#define __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+
+#include "SKR1.h"
+#include "SPC.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class FPSHandler
+{
+public:
+	static const unsigned cAESKeySize = 16;
+
+	enum EContentKeyValidity
+	{
+		eValidNone = 0,
+		ePersistentIndefinite = 0x3df2d9fb,
+		ePersistentDuration = 0x18f06048,
+		eValidLeaseOnly = 0x1a4bde7e,
+		eValidRentalOnly = 0x3dfe45a0,
+		eValidLeaseRental = 0x27b59bde,
+	};
+
+	enum EPlaybackState
+	{
+		eStateReady = 0xf4dee5a2,
+		eStatePlayingOrPaused = 0xa5d6739e,
+		eStateLeaseExpiring = 0x4f834330,
+		eStateHalted = 0x5991bf20
+	};
+
+	class PlaybackState
+	{
+	public:
+		EPlaybackState iPlaybackState;
+		uint32 iCreationTime;
+		uint64 iSessionId;
+	};
+
+	FPSHandler();
+	result_t putSPCMessage(const uint8 *data, unsigned size);
+	result_t parseSPCPayload();
+	result_t verifySPCTLLVs();
+	result_t verifyAppCertificate();
+	result_t verifyFPSVersion();
+	result_t decryptSessionKey();
+	result_t verifyCryptoBlockIntegrity();
+	result_t getMediaPlaybackState(PlaybackState &state);
+	result_t encryptContentKey(const std::vector< uint8 > &contentKey, const std::vector< uint8 > &initVec);
+	result_t setContentKeyExpiry(EContentKeyValidity validity, uint32 leaseSeconds, uint32 rentalSeconds);
+	result_t fillR1TLLV();
+	result_t assembleReturnTLLVs();
+	result_t assembleCKCPayload();
+	result_t getCKC(std::vector< uint8 > &ckc);
+
+private:
+	SPC iSPC;
+	std::map< TLLV::TLLVTag, TLLV > iSPCTLLVs;
+	SKR1 iSKR1;
+	TLLV iContentKeyTLLV;
+	EContentKeyValidity iCKValidity;
+	TLLV iKeyExpiryTLLV;
+	TLLV iR1TLLV;
+	std::vector< TLLV * > iReturnTLLVs;
+	std::vector< uint8 > iCKCPayload;
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+
+================
+File: server/TLLV.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+
+#include <rg/core/Common.h>
+#include <vector>
+
+namespace rg {
+
+class TLLV
+{
+public:
+	/// Size of random padding that will be appended to TLLV byte stream during serialization
+	static const unsigned cMaxPaddingSize = 64;
+	/// Size of the TLLV block
+	static const unsigned cTLLVBlockSize = 4;
+	/// Size of the TLLV value
+	static const unsigned cTLLVValueSize = 4;
+
+	typedef uint64 TLLVTag;
+
+	static const unsigned cTLLVHeaderSize = sizeof(TLLVTag) + cTLLVBlockSize + cTLLVValueSize;
+	static const unsigned cTLLVMinBlockSize = 16;
+
+	/** deserialize TLLV from byte stream */
+	int deserialize(const uint8 *buf, unsigned size);
+
+	void fillPadding();
+
+	/** get size that the byte stream would occupy after serialization */
+	unsigned serializeGetSize();
+	/** serialize TLLV from members */
+	result_t serialize(uint8 *buf, unsigned size);
+
+	TLLVTag iTag; /// TLLV tag
+	std::vector< uint8 > iValue; /// TLLV value bytes
+	std::vector< uint8 > iPadding;
+};
+
+enum TLLVSPCTagValues
+{
+	eSKR1 = 0x3d1a10b8bffac2ec,
+	eSKR1Integrity = 0xb349d4809e910687,
+	eARSeed = 0x89c90f12204106b2,
+	eR2 = 0x71b5595ac1521133,
+	eTagReturnRequest = 0x19f9d4e5ab7609cb,
+	eAssetId = 0x1bf7f53f5d5d5a1f,
+	eTransactionId = 0x47aa7ad3440577de,
+	eProtocolVersionsSupported = 0x67b8fb79ecce1a13,
+	eProtocolVersionUsed = 0x5d81bcbcc7f61703,
+	eStreamingIndicator = 0xabb0256a31843974,
+	eMediaPlaybackState = 0xeb8efdf2b25ab3a0,
+};
+
+enum TLLVCKCTagValues
+{
+	eEncryptedCK = 0x58b38165af0e3d5a,
+	eR1 = 0xea74c4645d5efee9,
+	eCKDuration = 0x47acf6a418cd091a,
+	eHDCPEnforcement = 0x2e52f1530d8ddb4a,
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__

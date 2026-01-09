@@ -1,0 +1,6 @@
+flask
+flask_limiter
+ollama
+langchain_core
+openai
+langfuse

@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+      - qdrant_snapshots:/qdrant/snapshots
+      - ./config.yaml:/qdrant/config/config.yaml
+    environment:
+      QDRANT__SERVICE__ENABLE_TLS: 0
+      QDRANT__CONFIG_PATH: /qdrant/config/config.yaml
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:6333/healthz" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 48G
+        reservations:
+          memory: 36G
+
+volumes:
+  qdrant_snapshots:
+  qdrant_storage:
+    driver: local

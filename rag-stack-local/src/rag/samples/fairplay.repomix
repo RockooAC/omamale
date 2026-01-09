@@ -1,0 +1,4939 @@
+================
+File: ckc-gen/dev_private_key.inc
+================
+const unsigned char dev_rsa_key[609] = {
+	0x30, 0x82, 0x02, 0x5c, 0x02, 0x01, 0x00, 0x02, 0x81, 0x81, 0x00,
+	0xb4, 0x5e, 0x01, 0x0d, 0xb8, 0xbd, 0xae, 0x8c, 0xaa, 0xec, 0x54,
+	0x90, 0xec, 0xab, 0x54, 0xb1, 0x34, 0xbe, 0x37, 0x37, 0xae, 0xfd,
+	0xda, 0xd7, 0xaa, 0xa7, 0x74, 0xa2, 0x8a, 0x18, 0xbe, 0x9a, 0x7e,
+	0x99, 0x0d, 0xd7, 0xdc, 0x5c, 0xfd, 0xc5, 0xb0, 0xf4, 0x0d, 0x96,
+	0xd0, 0x50, 0x92, 0x25, 0x88, 0x24, 0x63, 0xe8, 0xb2, 0x84, 0x63,
+	0xc0, 0x3b, 0x80, 0x4b, 0x59, 0xed, 0x10, 0x4a, 0x89, 0xc9, 0xcf,
+	0x4f, 0x06, 0x75, 0xe1, 0x0c, 0x4b, 0x6c, 0x26, 0x8f, 0xce, 0xe1,
+	0xf0, 0xf2, 0xde, 0xe9, 0x8c, 0xae, 0xf0, 0x87, 0x5a, 0xde, 0x11,
+	0xfe, 0xb2, 0x77, 0x3b, 0x86, 0xfd, 0x9b, 0xc5, 0x7e, 0x40, 0x23,
+	0xbd, 0x84, 0x4d, 0x24, 0x16, 0x94, 0x49, 0x64, 0xcb, 0x7b, 0x47,
+	0x2c, 0x26, 0x15, 0xda, 0xda, 0x9b, 0x4d, 0x6e, 0x01, 0x19, 0x06,
+	0x6f, 0xbc, 0x4e, 0x0b, 0x7c, 0xcf, 0xad, 0x02, 0x03, 0x01, 0x00,
+	0x01, 0x02, 0x81, 0x81, 0x00, 0x83, 0xbe, 0xbe, 0x4a, 0x45, 0x8c,
+	0xd7, 0x78, 0x8c, 0x48, 0xbf, 0xa4, 0x74, 0x1a, 0xd9, 0x6b, 0xee,
+	0xb8, 0x9a, 0x20, 0xa4, 0x43, 0x6c, 0x9c, 0x67, 0x5c, 0x95, 0x87,
+	0x3c, 0x13, 0xc2, 0xf5, 0x9a, 0x4f, 0x35, 0x9b, 0x5c, 0xac, 0xd7,
+	0xf8, 0x94, 0xbe, 0x4f, 0x46, 0xbf, 0xb6, 0x7a, 0x69, 0xcb, 0xbd,
+	0xb8, 0xf4, 0x79, 0xa0, 0xd6, 0x33, 0xcd, 0xc2, 0x72, 0x47, 0xa7,
+	0x2f, 0x65, 0x21, 0x71, 0xb4, 0x62, 0x19, 0x9d, 0x63, 0x5d, 0x0c,
+	0xe0, 0x01, 0xef, 0x56, 0xfe, 0x62, 0xa3, 0x2f, 0x8f, 0x79, 0x6b,
+	0xe8, 0xc8, 0x14, 0x74, 0xc5, 0x20, 0x51, 0xfc, 0x59, 0x10, 0x35,
+	0xcb, 0x12, 0x12, 0x28, 0x57, 0x3c, 0x90, 0x58, 0x8b, 0x7e, 0x7f,
+	0xa8, 0x63, 0x48, 0x6f, 0xe1, 0xcf, 0x2c, 0x3e, 0x26, 0x09, 0x68,
+	0xe2, 0x88, 0x02, 0x58, 0xfb, 0x15, 0xdd, 0x2e, 0x94, 0x1b, 0x65,
+	0x81, 0x02, 0x41, 0x00, 0xe4, 0x73, 0xdd, 0x74, 0x62, 0x14, 0x6b,
+	0x7e, 0x24, 0xdb, 0xf1, 0x06, 0x42, 0xac, 0x82, 0x02, 0x8e, 0x15,
+	0x62, 0x50, 0x94, 0x74, 0x21, 0x53, 0xa7, 0xdf, 0x9e, 0x14, 0x85,
+	0x1e, 0x75, 0xea, 0xae, 0x82, 0xc4, 0x88, 0x66, 0x18, 0x1b, 0x95,
+	0x3f, 0x85, 0x4a, 0xf3, 0x0f, 0x60, 0x04, 0x6e, 0x1b, 0xfc, 0xb0,
+	0x2e, 0x83, 0xa2, 0xbd, 0x1c, 0xb5, 0x74, 0x59, 0x74, 0x74, 0x80,
+	0x75, 0xb1, 0x02, 0x41, 0x00, 0xca, 0x1d, 0xc8, 0xcb, 0x24, 0x2b,
+	0x4a, 0xf7, 0xd7, 0x69, 0x2b, 0xa3, 0xe5, 0x11, 0xab, 0xc5, 0x71,
+	0x97, 0x0c, 0x18, 0xd1, 0xfb, 0xf6, 0xac, 0x5d, 0x5a, 0x4b, 0x4f,
+	0xdc, 0x95, 0x05, 0x30, 0xe4, 0xe1, 0xff, 0x3b, 0x11, 0x27, 0x0e,
+	0x0c, 0xf7, 0x97, 0x73, 0xcd, 0x4d, 0x70, 0xc2, 0x71, 0x00, 0xe1,
+	0xf7, 0x0c, 0x84, 0x65, 0x5d, 0x12, 0x80, 0x8a, 0x7b, 0x49, 0x80,
+	0x83, 0xac, 0xbd, 0x02, 0x40, 0x4a, 0x3c, 0x1c, 0x4a, 0x25, 0x54,
+	0xdd, 0x59, 0x30, 0x41, 0x08, 0x21, 0x30, 0xa9, 0x3d, 0xd5, 0xf6,
+	0xb5, 0x9c, 0x2c, 0xf3, 0x10, 0x89, 0x83, 0xd5, 0x99, 0x24, 0x95,
+	0x26, 0x6c, 0xaf, 0x84, 0x83, 0x10, 0x9b, 0x2c, 0x77, 0x80, 0x7d,
+	0xf6, 0x11, 0x9e, 0x0e, 0xac, 0xcc, 0xe2, 0x36, 0x8e, 0x51, 0x29,
+	0xdb, 0x56, 0x42, 0x10, 0x2f, 0xc3, 0x94, 0x73, 0x2a, 0x5e, 0x5d,
+	0x3d, 0x21, 0x01, 0x02, 0x40, 0x64, 0xa7, 0x12, 0x80, 0xbf, 0xa1,
+	0x63, 0xb3, 0x2b, 0x2e, 0x2f, 0xd2, 0x6d, 0xd8, 0x2f, 0xff, 0xa2,
+	0xc2, 0xc2, 0xfe, 0x75, 0x4c, 0x12, 0x1a, 0xe2, 0x5e, 0x7e, 0x14,
+	0xe6, 0x57, 0xbb, 0xff, 0x0e, 0x6c, 0xd1, 0x8b, 0x1b, 0xce, 0xa4,
+	0x3b, 0xa6, 0xed, 0x60, 0x79, 0x04, 0x30, 0xbc, 0x54, 0x44, 0x49,
+	0x43, 0x9b, 0x93, 0x2f, 0x5b, 0x7b, 0x44, 0x52, 0x32, 0x75, 0x77,
+	0x2f, 0x9b, 0xcd, 0x02, 0x40, 0x7f, 0xc4, 0xd7, 0xb9, 0x96, 0x4f,
+	0xae, 0x8f, 0x3d, 0xea, 0xa5, 0xa0, 0x07, 0xd2, 0x1f, 0xfe, 0x6d,
+	0x27, 0x26, 0xa4, 0xda, 0x06, 0xa0, 0x92, 0xe1, 0x67, 0x32, 0x1e,
+	0xfb, 0xf4, 0x94, 0x45, 0xae, 0x5e, 0x58, 0x20, 0x88, 0x80, 0x87,
+	0xea, 0xb9, 0x0e, 0x47, 0x23, 0x5b, 0x0e, 0x9e, 0x9e, 0x2e, 0x4e,
+	0xe3, 0xe5, 0x2e, 0xc1, 0x74, 0x69, 0xdb, 0xdb, 0xd9, 0x6b, 0x19,
+	0x83, 0x94, 0x81, 0x00
+};
+
+const int dev_rsa_key_length = 609;
+
+================
+File: ckc-gen/FPSHandler.cpp
+================
+#include "FPSHandler.h"
+#include "SKR1.h"
+#include "hexdump.h"
+#include <algorithm>
+#include <cstdlib>
+#include <set>
+#include <tomcrypt.h>
+
+namespace rg {
+
+static const unsigned cFPSVersion = 1;
+static const unsigned cContentKeyDurationBlockSize = 16;
+static const uint32 cContentKeyDurationReserved = 0x86d34a3a;
+static const unsigned cSHA1Size = 20;
+static const uint32 cCKCVersion = 1;
+static const unsigned cMediaPlaybackTLLVSize = 16;
+
+static const std::set< TLLV::TLLVTag > cMandatoryTLLVTags = {
+	eSKR1, eSKR1Integrity, eARSeed, eR2, eTagReturnRequest, eAssetId, eTransactionId, eProtocolVersionsSupported, eProtocolVersionUsed,
+	/// TODO - programming guide says the below are MANDATORY
+	/// but reference implementation claims otherwise
+	/*
+	eStreamingIndicator,
+	eMediaPlaybackState
+	*/
+};
+
+FPSHandler::FPSHandler()
+	: iSKR1(std::vector< uint8 >(), NULL)
+	, iCKValidity(eValidNone)
+{
+}
+
+result_t FPSHandler::putSPCMessage(const uint8 *data, unsigned size)
+{
+	result_t res = iSPC.load(data, size);
+	if (res != RES_OK) {
+		printf("Error loading SPC\n");
+		return res;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::parseSPCPayload()
+{
+	int bytesLeft = iSPC.iSpcPayload.size();
+	uint8 *ptr = iSPC.iSpcPayload.data();
+
+	while (bytesLeft > 0) {
+		TLLV tllv;
+		int res = tllv.deserialize(ptr, bytesLeft);
+		if (res < 0) {
+			printf("Error deserializing TLLV\n");
+			return RES_INVARG;
+		}
+		iSPCTLLVs[tllv.iTag] = tllv;
+		bytesLeft -= res;
+		ptr += res;
+	}
+
+	for (auto it = iSPCTLLVs.begin(); it != iSPCTLLVs.end(); ++it) {
+		printf("-------------------------------\n0x%llx\n", it->first);
+		hexDump("Payload", it->second.iValue.data(), it->second.iValue.size());
+		hexDump("Padding", it->second.iPadding.data(), it->second.iPadding.size());
+		printf("\n\n");
+	}
+	return RES_OK;
+}
+
+result_t FPSHandler::verifySPCTLLVs()
+{
+	std::set< TLLV::TLLVTag > mandatoryTagList = cMandatoryTLLVTags;
+
+	for (auto it = iSPCTLLVs.begin(); it != iSPCTLLVs.end(); ++it) {
+		auto tagIt = mandatoryTagList.find(it->first);
+		if (tagIt != mandatoryTagList.end())
+			mandatoryTagList.erase(tagIt);
+	}
+
+	if (!mandatoryTagList.empty()) {
+		printf("Missing %lu mandatory SPC TLLVs\n", mandatoryTagList.size());
+		for (auto it = mandatoryTagList.begin(); it != mandatoryTagList.end(); ++it) {
+			printf("TAG 0x%llx\n", *it);
+		}
+		return RES_INVARG;
+	}
+
+	TLLV &arSeedTLLV = iSPCTLLVs[eARSeed];
+	if (arSeedTLLV.iValue.size() != cAESKeySize) {
+		printf("Wrong AR Seed size: %lu\n", arSeedTLLV.iValue.size());
+		return RES_INVARG;
+	}
+
+	TLLV &returnRequest = iSPCTLLVs[eTagReturnRequest];
+
+	if (returnRequest.iValue.size() % sizeof(TLLV::TLLVTag) != 0) {
+		printf("Incorrect TLLV return request size: %lu", returnRequest.iValue.size());
+		return RES_INVARG;
+	}
+
+	TLLV &r2 = iSPCTLLVs[eR2];
+
+	if (r2.iValue.size() != 21) {
+		printf("R2 value should be 21 bytes long, current size: %lu\n", r2.iValue.size());
+		return RES_INVARG;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::verifyAppCertificate()
+{
+	// TODO
+	return RES_NOIMPL;
+}
+
+result_t FPSHandler::verifyFPSVersion()
+{
+	TLLV &verSupported = iSPCTLLVs[eProtocolVersionsSupported];
+	TLLV &verUsed = iSPCTLLVs[eProtocolVersionUsed];
+
+	if (verUsed.iValue.size() != sizeof(uint32)) {
+		printf("incorrect Version Used TLLV size: %lu\n", verUsed.iValue.size());
+		return RES_INVARG;
+	}
+
+	uint32 clientVersion = ( uint32 ) verUsed.iValue[0] << 24;
+	clientVersion |= ( uint32 ) verUsed.iValue[1] << 16;
+	clientVersion |= ( uint32 ) verUsed.iValue[2] << 8;
+	clientVersion |= ( uint32 ) verUsed.iValue[3];
+
+	if (verSupported.iValue.size() < sizeof(uint32) || verSupported.iValue.size() % sizeof(uint32) != 0) {
+		printf("incorrect Versions Supported TLLV size: %lu\n", verSupported.iValue.size());
+		return RES_INVARG;
+	}
+
+	std::vector< uint32 > clientSupportedVersions;
+
+	for (unsigned ii = 0; ii < verSupported.iValue.size(); ii += sizeof(uint32)) {
+		uint32 ver = ( uint32 ) verSupported.iValue[ii] << 24;
+		ver |= ( uint32 ) verSupported.iValue[ii + 1] << 16;
+		ver |= ( uint32 ) verSupported.iValue[ii + 2] << 8;
+		ver |= ( uint32 ) verSupported.iValue[ii + 3];
+
+		clientSupportedVersions.push_back(ver);
+	}
+
+	result_t versionRes = RES_NOENT;
+
+	if (clientVersion == cFPSVersion) {
+		for (unsigned ii = 0; ii < clientSupportedVersions.size(); ++ii) {
+			if (clientSupportedVersions[ii] == cFPSVersion) {
+				versionRes = RES_OK;
+				break;
+			}
+		}
+	}
+
+	if (versionRes != RES_OK) {
+		printf("Unsupported FPS version %u\n", clientVersion);
+	}
+
+	return versionRes;
+}
+
+result_t FPSHandler::decryptSessionKey()
+{
+	TLLV &r2 = iSPCTLLVs[eR2];
+
+	result_t res = iSKR1.loadFromTLLV(iSPCTLLVs[eSKR1], r2.iValue);
+
+	hexDump("Session Key", iSKR1.iSessionKey.data(), iSKR1.iSessionKey.size());
+
+	return res;
+}
+
+result_t FPSHandler::verifyCryptoBlockIntegrity()
+{
+	TLLV &integrityBlockSPC = iSPCTLLVs[eSKR1Integrity];
+
+	if (integrityBlockSPC.iValue.size() != cAESKeySize) {
+		printf("Wrong size of SPC SK..R1 integrity block: %lu\n", integrityBlockSPC.iValue.size());
+		return RES_INVARG;
+	}
+
+	if (integrityBlockSPC.iValue != iSKR1.iIntegrityBytes) {
+		printf("Crypto block integrity bytes do not match SK..R1 integrity bytes from SPC\n");
+		return RES_INVARG;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::getMediaPlaybackState(PlaybackState &state)
+{
+	auto it = iSPCTLLVs.find(eMediaPlaybackState);
+	if (it == iSPCTLLVs.end())
+		return RES_NOENT;
+
+	TLLV &mpsTLLV = it->second;
+
+	if (mpsTLLV.iValue.size() != cMediaPlaybackTLLVSize)
+		return RES_INVARG;
+
+	uint32 creationTime = (( uint32 ) mpsTLLV.iValue[0] << 24);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[1] << 16);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[2] << 8);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[3]);
+
+	state.iCreationTime = creationTime;
+
+	uint32 playbackState = (( uint32 ) mpsTLLV.iValue[4] << 24);
+	playbackState = (( uint32 ) mpsTLLV.iValue[5] << 16);
+	playbackState = (( uint32 ) mpsTLLV.iValue[6] << 8);
+	playbackState = (( uint32 ) mpsTLLV.iValue[7]);
+
+	switch (playbackState) {
+		case eStateReady:
+			state.iPlaybackState = eStateReady;
+			break;
+		case eStatePlayingOrPaused:
+			state.iPlaybackState = eStatePlayingOrPaused;
+			break;
+		case eStateLeaseExpiring:
+			state.iPlaybackState = eStateLeaseExpiring;
+			break;
+		case eStateHalted:
+			state.iPlaybackState = eStateHalted;
+			break;
+		default:
+			return RES_INVARG;
+	}
+
+	uint64 sessionId = ( uint64 ) mpsTLLV.iValue[8] << 56;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[9] << 48;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[10] << 40;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[11] << 32;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[12] << 24;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[13] << 16;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[14] << 8;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[15];
+
+	state.iSessionId = sessionId;
+
+	return RES_OK;
+}
+
+result_t FPSHandler::encryptContentKey(const std::vector< uint8 > &contentKey, const std::vector< uint8 > &initVec)
+{
+	if (contentKey.size() != cAESKeySize || initVec.size() != cAESKeySize) {
+		printf("Wrong size of Content Key: %lu\n", contentKey.size());
+		return RES_ERROR;
+	}
+
+	iContentKeyTLLV.iTag = eEncryptedCK;
+	iContentKeyTLLV.iValue.clear();
+	iContentKeyTLLV.iValue.insert(iContentKeyTLLV.iValue.end(), initVec.begin(), initVec.end());
+
+	std::vector< uint8 > encryptedContentKey;
+	encryptedContentKey.resize(cAESKeySize);
+
+	symmetric_ECB ecb;
+
+	int cryptoRes = ecb_start(find_cipher("aes"), iSKR1.iSessionKey.data(), cAESKeySize, 0, &ecb);
+
+	if (cryptoRes != CRYPT_OK) {
+		printf("Error initializing AES EBC for CK encryption: %s\n", error_to_string(cryptoRes));
+		return RES_ERROR;
+	}
+
+	cryptoRes = ecb_encrypt(contentKey.data(), encryptedContentKey.data(), cAESKeySize, &ecb);
+
+	if (cryptoRes != CRYPT_OK) {
+		printf("Error encrypting Content Key: %s\n", error_to_string(cryptoRes));
+		ecb_done(&ecb);
+		return RES_ERROR;
+	}
+
+	ecb_done(&ecb);
+
+	iContentKeyTLLV.iValue.insert(iContentKeyTLLV.iValue.end(), encryptedContentKey.begin(), encryptedContentKey.end());
+
+	iContentKeyTLLV.fillPadding();
+
+	printf("-------------------------------\nContent Key TLLV\n");
+	hexDump("Payload", iContentKeyTLLV.iValue.data(), iContentKeyTLLV.iValue.size());
+	hexDump("Padding", iContentKeyTLLV.iPadding.data(), iContentKeyTLLV.iPadding.size());
+	printf("\n\n");
+
+	return RES_OK;
+}
+
+result_t FPSHandler::setContentKeyExpiry(EContentKeyValidity validity, uint32 leaseSeconds, uint32 rentalSeconds)
+{
+	iKeyExpiryTLLV.iTag = eCKDuration;
+
+	iKeyExpiryTLLV.iValue.clear();
+	iKeyExpiryTLLV.iValue.reserve(cContentKeyDurationBlockSize);
+
+	/// Push lease duration
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(leaseSeconds & 0xff);
+
+	/// Push rental duration
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(rentalSeconds & 0xff);
+
+	/// Push key type from key validity
+	uint32 keyType = ( uint32 ) validity;
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(keyType & 0xff);
+
+	/// Push 'reserved block'
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(cContentKeyDurationReserved & 0xff);
+
+	iKeyExpiryTLLV.fillPadding();
+
+	return RES_OK;
+}
+
+result_t FPSHandler::fillR1TLLV()
+{
+	iR1TLLV.iTag = eR1;
+
+	iR1TLLV.iValue.clear();
+	iR1TLLV.iValue.insert(iR1TLLV.iValue.end(), iSKR1.iR1.begin(), iSKR1.iR1.end());
+
+	iR1TLLV.fillPadding();
+
+	return RES_OK;
+}
+
+result_t FPSHandler::assembleReturnTLLVs()
+{
+	TLLV &returnRequest = iSPCTLLVs[eTagReturnRequest];
+	iReturnTLLVs.clear();
+
+	/// Retrieve TLLVs from SPC and put their pointers in a vector
+	for (unsigned ii = 0; ii < returnRequest.iValue.size(); ii += sizeof(TLLV::TLLVTag)) {
+		TLLV::TLLVTag tag = ( uint64 ) returnRequest.iValue[ii] << 56;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 1] << 48;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 2] << 40;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 3] << 32;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 4] << 24;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 5] << 16;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 6] << 8;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 7];
+
+		auto it = iSPCTLLVs.find(tag);
+		if (it == iSPCTLLVs.end()) {
+			printf("Error - tag 0x%llx from return request not found in SPC", tag);
+			return RES_INVARG;
+		}
+
+		iReturnTLLVs.push_back(&(it->second));
+	}
+
+	/// Shuffle the vector
+	std::random_shuffle(iReturnTLLVs.begin(), iReturnTLLVs.end());
+
+	printf("Number of return TLLVs: %lu\n", iReturnTLLVs.size());
+	unsigned returnTLLVSize = 0;
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		TLLV &retTLLV = *iReturnTLLVs[ii];
+		returnTLLVSize += retTLLV.serializeGetSize();
+	}
+	printf("Size of return TLLVs: %u\n", returnTLLVSize);
+
+	return RES_OK;
+}
+
+result_t FPSHandler::assembleCKCPayload()
+{
+	iCKCPayload.clear();
+
+	std::vector< TLLV * > iCKCSpecificTLLVs;
+
+	iCKCSpecificTLLVs.push_back(&iContentKeyTLLV);
+	if (iCKValidity != eValidNone)
+		iCKCSpecificTLLVs.push_back(&iKeyExpiryTLLV);
+	iCKCSpecificTLLVs.push_back(&iR1TLLV);
+
+	/// Shuffle CKC-specific TLLVs
+	std::random_shuffle(iCKCSpecificTLLVs.begin(), iCKCSpecificTLLVs.end());
+
+	/// Now calculate payload size and allocate
+	/// enough vector space for the payload TLLVs with padding
+
+	unsigned ckcPayloadSize = 0;
+
+	for (unsigned ii = 0; ii < iCKCSpecificTLLVs.size(); ++ii) {
+		ckcPayloadSize += iCKCSpecificTLLVs[ii]->serializeGetSize();
+	}
+
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		ckcPayloadSize += iReturnTLLVs[ii]->serializeGetSize();
+	}
+
+	printf("Total CKC payload size %u\n", ckcPayloadSize);
+
+	iCKCPayload.resize(ckcPayloadSize);
+
+	uint8 *ptr = iCKCPayload.data();
+	unsigned bytesLeft = ckcPayloadSize;
+
+	for (unsigned ii = 0; ii < iCKCSpecificTLLVs.size(); ++ii) {
+		TLLV &tllv = *iCKCSpecificTLLVs[ii];
+		unsigned tllvSize = tllv.serializeGetSize();
+		result_t res = tllv.serialize(ptr, bytesLeft);
+		if (res != RES_OK) {
+			printf("TLLV Serialize error\n");
+			return RES_ERROR;
+		}
+		ptr += tllvSize;
+		bytesLeft -= tllvSize;
+	}
+
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		TLLV &tllv = *iReturnTLLVs[ii];
+		unsigned tllvSize = tllv.serializeGetSize();
+		result_t res = tllv.serialize(ptr, bytesLeft);
+		if (res != RES_OK) {
+			printf("TLLV Serialize error\n");
+			return RES_ERROR;
+		}
+		ptr += tllvSize;
+		bytesLeft -= tllvSize;
+	}
+
+	hexDump("CKC plain payload", iCKCPayload.data(), iCKCPayload.size());
+	printf("\n\n");
+
+	return RES_OK;
+}
+
+result_t FPSHandler::getCKC(std::vector< uint8 > &ckc)
+{
+	if (iCKCPayload.size() == 0 || iCKCPayload.size() % 16 != 0) {
+		printf("Bad CKC payload size %lu\n", iCKCPayload.size());
+		return RES_ERROR;
+	}
+
+	std::vector< uint8 > ckcEncryptedPayload;
+	ckcEncryptedPayload.resize(iCKCPayload.size());
+
+	/// Alloc vector for SHA1 of R1 block
+	std::vector< uint8 > arKeySha1;
+	arKeySha1.resize(cSHA1Size);
+
+	/// Compute SHA1 of R1
+	hash_state sha1Context;
+	sha1_init(&sha1Context);
+
+	sha1_process(&sha1Context, iR1TLLV.iValue.data(), iR1TLLV.iValue.size());
+
+	sha1_done(&sha1Context, arKeySha1.data());
+
+	/// First 16 bytes will serve as the AR key
+	/// Now initialize AES ECB to encrypt the AR Seed
+	/// with AR Key to get CKC encryption key (called AR)
+
+	TLLV &arSeed = iSPCTLLVs[eARSeed];
+
+	/// ckcEncryptionKey (AR) is the final key which is used to AES CBC
+	std::vector< uint8 > ckcEncryptionKey;
+	ckcEncryptionKey.resize(cAESKeySize);
+
+	symmetric_ECB ecb;
+
+	int res = ecb_start(find_cipher("aes"), arKeySha1.data(), cAESKeySize, 0, &ecb);
+
+	if (res != CRYPT_OK) {
+		printf("Error initializing AES ECB: %s\n", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	res = ecb_encrypt(arSeed.iValue.data(), ckcEncryptionKey.data(), cAESKeySize, &ecb);
+
+	if (res != CRYPT_OK) {
+		printf("Error encrypting AR seed: %s\n", error_to_string(res));
+		ecb_done(&ecb);
+		return RES_ERROR;
+	}
+
+	ecb_done(&ecb);
+
+	std::vector< uint8 > ckcEncInitVector;
+	ckcEncInitVector.reserve(cAESKeySize);
+
+	for (unsigned ii = 0; ii < cAESKeySize; ++ii) {
+		ckcEncInitVector.push_back(rand() % 256);
+	}
+
+	symmetric_CBC cbc;
+
+	res = cbc_start(find_cipher("aes"), ckcEncInitVector.data(), ckcEncryptionKey.data(), cAESKeySize, 0, &cbc);
+
+	if (res != CRYPT_OK) {
+		printf("Error initializing AES CBC: %s\n", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	res = cbc_encrypt(iCKCPayload.data(), ckcEncryptedPayload.data(), ckcEncryptedPayload.size(), &cbc);
+
+	if (res != CRYPT_OK) {
+		printf("Error encrypting CKC payload: %s\n", error_to_string(res));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	/// Start filling in CKC message contents
+
+	/// 4 byte version
+	ckc.push_back((cCKCVersion >> 24) & 0xff);
+	ckc.push_back((cCKCVersion >> 16) & 0xff);
+	ckc.push_back((cCKCVersion >> 8) & 0xff);
+	ckc.push_back(cCKCVersion & 0xff);
+
+	/// 4 byte 'reserved', for now fill with 0 (the spec doesn't say)
+	ckc.insert(ckc.end(), 4, 0);
+
+	/// CKC encryption Init Vector
+	ckc.insert(ckc.end(), ckcEncInitVector.begin(), ckcEncInitVector.end());
+
+	/// CKC encrypted payload size
+	uint32 ckcEncryptedPayloadSize = ckcEncryptedPayload.size();
+	ckc.push_back((ckcEncryptedPayloadSize >> 24) & 0xff);
+	ckc.push_back((ckcEncryptedPayloadSize >> 16) & 0xff);
+	ckc.push_back((ckcEncryptedPayloadSize >> 8) & 0xff);
+	ckc.push_back(ckcEncryptedPayloadSize & 0xff);
+
+	/// Finally, CKC encrypted payload
+	ckc.insert(ckc.end(), ckcEncryptedPayload.begin(), ckcEncryptedPayload.end());
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: ckc-gen/FPSHandler.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+#define __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+
+#include "SKR1.h"
+#include "SPC.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class FPSHandler
+{
+public:
+	static const unsigned cAESKeySize = 16;
+
+	enum EContentKeyValidity
+	{
+		eValidNone = 0,
+		ePersistentIndefinite = 0x3df2d9fb,
+		ePersistentDuration = 0x18f06048,
+		eValidLeaseOnly = 0x1a4bde7e,
+		eValidRentalOnly = 0x3dfe45a0,
+		eValidLeaseRental = 0x27b59bde,
+	};
+
+	enum EPlaybackState
+	{
+		eStateReady = 0xf4dee5a2,
+		eStatePlayingOrPaused = 0xa5d6739e,
+		eStateLeaseExpiring = 0x4f834330,
+		eStateHalted = 0x5991bf20
+	};
+
+	class PlaybackState
+	{
+	public:
+		EPlaybackState iPlaybackState;
+		uint32 iCreationTime;
+		uint64 iSessionId;
+	};
+
+	FPSHandler();
+	result_t putSPCMessage(const uint8 *data, unsigned size);
+	result_t parseSPCPayload();
+	result_t verifySPCTLLVs();
+	result_t verifyAppCertificate();
+	result_t verifyFPSVersion();
+	result_t decryptSessionKey();
+	result_t verifyCryptoBlockIntegrity();
+	result_t getMediaPlaybackState(PlaybackState &state);
+	result_t encryptContentKey(const std::vector< uint8 > &contentKey, const std::vector< uint8 > &initVec);
+	result_t setContentKeyExpiry(EContentKeyValidity validity, uint32 leaseSeconds, uint32 rentalSeconds);
+	result_t fillR1TLLV();
+	result_t assembleReturnTLLVs();
+	result_t assembleCKCPayload();
+	result_t getCKC(std::vector< uint8 > &ckc);
+
+private:
+	SPC iSPC;
+	std::map< TLLV::TLLVTag, TLLV > iSPCTLLVs;
+	SKR1 iSKR1;
+	TLLV iContentKeyTLLV;
+	EContentKeyValidity iCKValidity;
+	TLLV iKeyExpiryTLLV;
+	TLLV iR1TLLV;
+	std::vector< TLLV * > iReturnTLLVs;
+	std::vector< uint8 > iCKCPayload;
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_CKC_GEN_FPSHANDLER_H__
+
+================
+File: ckc-gen/hexdump.h
+================
+#ifndef __RG_FAIRPLAY_CKC_GEN_HEXDUMP_H__
+#define __RG_FAIRPLAY_CKC_GEN_HEXDUMP_H__
+
+static void hexDump(const char *desc, void *addr, int len)
+{
+	int i;
+	unsigned char buff[17];
+	unsigned char *pc = ( unsigned char * ) addr;
+
+	// Output description if given.
+	if (desc != NULL)
+		printf("%s:\n", desc);
+
+	if (len == 0) {
+		printf("  ZERO LENGTH\n");
+		return;
+	}
+	if (len < 0) {
+		printf("  NEGATIVE LENGTH: %i\n", len);
+		return;
+	}
+
+	// Process every byte in the data.
+	for (i = 0; i < len; i++) {
+		// Multiple of 16 means new line (with line offset).
+
+		if ((i % 16) == 0) {
+			// Just don't print ASCII for the zeroth line.
+			if (i != 0)
+				printf("  %s\n", buff);
+
+			// Output the offset.
+			printf("  %04x ", i);
+		}
+
+		// Now the hex code for the specific character.
+		printf(" %02x", pc[i]);
+
+		// And store a printable ASCII character for later.
+		if ((pc[i] < 0x20) || (pc[i] > 0x7e))
+			buff[i % 16] = '.';
+		else
+			buff[i % 16] = pc[i];
+		buff[(i % 16) + 1] = '\0';
+	}
+
+	// Pad out last line if not exactly 16 characters.
+	while ((i % 16) != 0) {
+		printf("   ");
+		i++;
+	}
+
+	// And print the final ASCII bit.
+	printf("  %s\n", buff);
+}
+
+#endif // __RG_FAIRPLAY_CKC_GEN_HEXDUMP_H__
+
+================
+File: ckc-gen/main.cpp
+================
+#include "FPSHandler.h"
+#include <iostream>
+#include <rg/core/Common.h>
+#include <tomcrypt.h>
+#include <vector>
+
+using namespace std;
+using namespace rg;
+
+int main(int argc, char *argv[])
+{
+
+	if (argc < 3) {
+		printf("Usage: license_test PATH_TO_SPC_FILE PATH_TO_CKC_FILE\n");
+		return -1;
+	}
+
+	FILE *fp = fopen(argv[1], "rb");
+	if (fp == NULL) {
+		printf("Cannot open file %s\n", argv[1]);
+		return -1;
+	}
+	fseek(fp, 0, SEEK_END);
+	int fileLen = ftell(fp);
+	fseek(fp, 0, SEEK_SET);
+
+	if (fileLen == 0) {
+		printf("Empty input file %s\n", argv[1]);
+		return -1;
+	}
+
+	std::vector< unsigned char > fileContents;
+	fileContents.resize(fileLen);
+	fread(fileContents.data(), fileLen, 1, fp);
+	fclose(fp);
+
+	fp = fopen(argv[2], "wb");
+	if (fp == NULL) {
+		printf("Cannot open file %s\n", argv[2]);
+		return -1;
+	}
+
+	FPSHandler fps;
+	result_t res = fps.putSPCMessage(fileContents.data(), fileContents.size());
+	if (res != RES_OK) {
+		printf("Error loading SPC message\n");
+		return -1;
+	}
+
+	res = fps.parseSPCPayload();
+
+	if (res != RES_OK) {
+		printf("Error parsing SPC payload\n");
+		return -1;
+	}
+
+	res = fps.verifySPCTLLVs();
+
+	if (res != RES_OK) {
+		printf("Incomplete set of TLLV blocks\n");
+		return -1;
+	}
+
+	res = fps.assembleReturnTLLVs();
+
+	if (res != RES_OK) {
+		printf("Failed to prepare return requested blocks\n");
+		return -1;
+	}
+
+	res = fps.verifyFPSVersion();
+
+	if (res != RES_OK) {
+		printf("FPS version verification failed\n");
+		return -1;
+	}
+
+	res = fps.decryptSessionKey();
+
+	if (res != RES_OK) {
+		printf("Error decrypting session key\n");
+		return -1;
+	}
+
+	res = fps.verifyCryptoBlockIntegrity();
+
+	if (res != RES_OK) {
+		printf("Session key integrity check failed\n");
+		return -1;
+	}
+
+	printf("\nSPC processing successful.\n\n");
+
+	/// Start CKC generation
+
+	/// TODO: Get content key from somewhere
+	std::vector< uint8 > contentKey = {0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff, 0x00, 0x01, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff, 0x00, 0x01};
+	std::vector< uint8 > initVec = {0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb, 0xaa, 0xbb};
+
+	/// Inspect Media Playback State TLLV
+	FPSHandler::PlaybackState playbackState;
+
+	res = fps.getMediaPlaybackState(playbackState);
+
+	if (res != RES_OK && res != RES_NOENT) {
+		printf("Bad MediaPlaubackState block\n");
+		return RES_INVARG;
+	}
+
+	bool hasExpiry = true;
+
+	if (hasExpiry) {
+		fps.setContentKeyExpiry(FPSHandler::eValidLeaseOnly, 1024, 0);
+	}
+
+	res = fps.encryptContentKey(contentKey, initVec);
+
+	if (res != RES_OK) {
+		printf("Error encrypting Content Key\n");
+		return -1;
+	}
+
+	fps.fillR1TLLV();
+
+	res = fps.assembleCKCPayload();
+
+	if (res != RES_OK) {
+		printf("Error assembling CKC payload\n");
+		return -1;
+	}
+
+	std::vector< uint8 > ckc;
+
+	res = fps.getCKC(ckc);
+
+	if (res != RES_OK) {
+		printf("Error creating CKC\n");
+		return -1;
+	}
+
+	int written = fwrite(ckc.data(), ckc.size(), 1, fp);
+
+	fclose(fp);
+
+	if (written != 1) {
+		printf("Error writing CKC file\n");
+		return -1;
+	}
+
+	return 0;
+}
+
+================
+File: ckc-gen/RandInit.cpp
+================
+#include <cstdio>
+#include <cstdlib>
+#include <time.h>
+
+static int randInit()
+{
+	struct timespec tp_mono;
+	struct timespec tp_wall;
+	clock_gettime(CLOCK_MONOTONIC, &tp_mono);
+	clock_gettime(CLOCK_REALTIME, &tp_wall);
+
+	time_t seed = tp_mono.tv_sec ^ tp_wall.tv_sec ^ tp_mono.tv_nsec ^ tp_wall.tv_nsec;
+
+	srand(seed);
+	return 0;
+}
+
+static int randDummy = randInit();
+
+================
+File: ckc-gen/SKR1.cpp
+================
+#include "SKR1.h"
+#include <tomcrypt.h>
+
+namespace rg {
+
+SKR1::SKR1(const std::vector< uint8 > &appSecretKey, KeyDerivationFunction dFunction)
+	: iASK(appSecretKey)
+	, iDFunc(dFunction)
+{
+}
+
+#ifdef _DEBUG
+
+const std::vector< uint8 > cDevelopmentDASK = {0xd8, 0x7c, 0xe7, 0xa2, 0x60, 0x81, 0xde, 0x2e, 0x8e, 0xb8, 0xac, 0xef, 0x3a, 0x6d, 0xc1, 0x79};
+
+#endif
+
+result_t SKR1::loadFromTLLV(const TLLV &tllv, const std::vector< uint8 > &randomBlock)
+{
+	if (tllv.iTag != eSKR1) {
+		return RES_INVARG;
+	}
+
+	if (tllv.iValue.size() != cSKR1PayloadSize) {
+		printf("Incorrect SK..R1 size: %lu, should be %u\n", tllv.iValue.size(), cSKR1PayloadSize);
+		return RES_INVARG;
+	}
+
+	std::vector< uint8 > initVec;
+	initVec.insert(initVec.end(), tllv.iValue.begin(), tllv.iValue.begin() + cAESKeySize);
+
+	std::vector< uint8 > dask;
+
+	if (iDFunc == NULL) {
+#ifdef _DEBUG
+		printf("Warning: using hardcoded development DASK\n");
+		dask = cDevelopmentDASK;
+#else
+		printf("No key derivation function provided for computing DASK\n");
+		return RES_ERROR;
+#endif
+	} else {
+		result_t res = iDFunc(iASK, randomBlock, dask);
+		if (res != RES_OK)
+			return res;
+	}
+
+	symmetric_CBC cbc;
+
+	int cryptoRes = cbc_start(find_cipher("aes"), initVec.data(), dask.data(), cAESKeySize, 0, &cbc);
+
+	if (cryptoRes != CRYPT_OK) {
+		printf("Error initializing AES CBC: %s\n", error_to_string(cryptoRes));
+		return RES_ERROR;
+	}
+
+	std::vector< uint8 > cryptoBlock;
+	cryptoBlock.resize(cSKR1CryptoBlockSize);
+
+	cryptoRes = cbc_decrypt(tllv.iValue.data() + cAESKeySize, cryptoBlock.data(), cSKR1CryptoBlockSize, &cbc);
+
+	if (cryptoRes != CRYPT_OK) {
+		printf("Error decrypting SK..R1 payload: %s\n", error_to_string(cryptoRes));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	// Extract cryptographic data from decrypted SK..R1 payload
+	auto it = cryptoBlock.begin();
+	iSessionKey.clear();
+	iSessionKey.insert(iSessionKey.end(), it, it + cAESKeySize);
+	it += cAESKeySize;
+	iDevId.clear();
+	iDevId.insert(iDevId.end(), it, it + cSKR1UniqueIdSize);
+	it += cSKR1UniqueIdSize;
+	iR1.clear();
+	iR1.insert(iR1.end(), it, it + cR1BlockSize);
+	it += cR1BlockSize;
+	iIntegrityBytes.clear();
+	iIntegrityBytes.insert(iIntegrityBytes.end(), it, it + cSKR1IntegritySize);
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: ckc-gen/SKR1.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_CKC_GEN_SKR1_H__
+#define __ATDS_RG_FAIRPLAY_CKC_GEN_SKR1_H__
+
+#include "TLLV.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+typedef result_t (*KeyDerivationFunction)(const std::vector< uint8 > &appSecretKey, const std::vector< uint8 > &randomBlock, std::vector< uint8 > &derivedKey);
+
+class SKR1
+{
+public:
+	static const unsigned cSKR1PayloadSize = 112;
+	static const unsigned cAESKeySize = 16;
+	static const unsigned cSKR1CryptoBlockSize = 96;
+	static const unsigned cSKR1UniqueIdSize = 20;
+	static const unsigned cR1BlockSize = 44;
+	static const unsigned cSKR1IntegritySize = 16;
+
+	SKR1(const std::vector< uint8 > &appSecretKey, KeyDerivationFunction dFunction);
+	result_t loadFromTLLV(const TLLV &tllv, const std::vector< uint8 > &randomBlock);
+
+	std::vector< uint8 > iASK;
+	KeyDerivationFunction iDFunc;
+	std::vector< uint8 > iSessionKey;
+	std::vector< uint8 > iDevId;
+	std::vector< uint8 > iR1;
+	std::vector< uint8 > iIntegrityBytes;
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_CKC_GEN_SKR1_H__
+
+================
+File: ckc-gen/SPC.cpp
+================
+#include "SPC.h"
+#include "dev_private_key.inc"
+#include <inttypes.h>
+#include <tomcrypt.h>
+
+namespace rg {
+
+static const unsigned cMinSPCSize = 192;
+static const uint8 cVersionTag[] = {0x00, 0x00, 0x00, 0x01};
+
+static const unsigned cAESKeySize = 16;
+static const unsigned cAESEncryptedKeySize = 128;
+
+result_t SPC::load(const uint8 *buf, unsigned size)
+{
+	if (size <= cMinSPCSize) {
+		printf("SPC message too short: %d\n", size);
+		return RES_INVARG;
+	}
+	const uint8 *ptr = buf;
+	unsigned left = size;
+
+	if (memcmp(ptr, cVersionTag, sizeof(cVersionTag)) != 0) {
+		printf("Invalid SPC version descriptor: 0x%02x%02x%02x%02x \n", ptr[0], ptr[1], ptr[2], ptr[3]);
+		return RES_INVARG;
+	}
+	ptr += sizeof(cVersionTag) + 4 /* reserved bytes */;
+	left -= sizeof(cVersionTag) + 4 /* reserved bytes */;
+
+	const uint8 *AESInitVector = ptr;
+
+	ptr += cAESKeySize;
+	left -= cAESKeySize;
+
+	const uint8 *AESEncryptedBlock = ptr;
+
+	ptr += cAESEncryptedKeySize;
+	left -= cAESEncryptedKeySize;
+
+	rsa_key rsaKey;
+
+	int res = rsa_import(dev_rsa_key, dev_rsa_key_length, &rsaKey);
+
+	if (res != CRYPT_OK) {
+		printf("Error importing RSA key, tomcrypt error %d\n", res);
+		return RES_ERROR;
+	}
+
+	std::vector< uint8 > aesKey;
+	unsigned long aesKeyLen = 128;
+	aesKey.resize(128);
+	int stat = 0;
+	res = rsa_decrypt_key_ex(AESEncryptedBlock, cAESEncryptedKeySize, aesKey.data(), &aesKeyLen, NULL, 0, find_hash("sha1"), LTC_PKCS_1_OAEP, &stat, &rsaKey);
+	// aesKey.resize(aesKeyLen);
+	rsa_free(&rsaKey);
+	if (res != CRYPT_OK) {
+		printf("Error decrypting AES key, tomcrypt error %d\n", res);
+		return RES_INVARG;
+	}
+
+	if (stat == 0) {
+		printf("Encrypted AES key is not OAEP\n");
+		return RES_INVARG;
+	}
+
+	memcpy(iAppCertHash, ptr, cAppCertHashSize);
+	ptr += cAppCertHashSize;
+	left -= cAppCertHashSize;
+
+	uint32 spcPayloadLength = ( uint32 ) *ptr++ << 24;
+	spcPayloadLength |= ( uint32 ) *ptr++ << 16;
+	spcPayloadLength |= ( uint32 ) *ptr++ << 8;
+	spcPayloadLength |= ( uint32 ) *ptr++;
+	left -= 4;
+
+	if (spcPayloadLength != left) {
+		printf("SPC payload length does not match data lenth: %d vs %d\n", spcPayloadLength, left);
+		return RES_INVARG;
+	}
+
+	const uint8 *spcPayload = ptr;
+
+	symmetric_CBC cbc;
+
+	res = cbc_start(find_cipher("aes"), AESInitVector, aesKey.data(), cAESKeySize, 0, &cbc);
+
+	if (res != CRYPT_OK) {
+		printf("Error initializing AES CBC: %s\n", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	iSpcPayload.resize(spcPayloadLength);
+
+	res = cbc_decrypt(spcPayload, iSpcPayload.data(), spcPayloadLength, &cbc);
+
+	if (res != CRYPT_OK) {
+		printf("Error decrypting SPC payload: %s\n", error_to_string(res));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: ckc-gen/SPC.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_CKC_GEN_SPC_H__
+#define __ATDS_RG_FAIRPLAY_CKC_GEN_SPC_H__
+
+#include "TLLV.h"
+#include <map>
+#include <rg/core/Common.h>
+#include <vector>
+
+namespace rg {
+
+class SPC
+{
+public:
+	static const unsigned cRSAPrivKeySize = 16;
+	static const unsigned cAppCertHashSize = 20;
+
+	result_t setRSAPrivKey(uint8 RSAPrivKey[cRSAPrivKeySize]);
+	result_t load(const uint8 *buf, unsigned size);
+
+	uint8 iAppCertHash[cAppCertHashSize];
+	std::vector< uint8 > iSpcPayload;
+
+private:
+	uint8 iRSAPrivKey[cRSAPrivKeySize];
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_CKC_GEN_SPC_H__
+
+================
+File: ckc-gen/TLLV.cpp
+================
+#include "TLLV.h"
+#include <cstdlib>
+
+namespace rg {
+
+int TLLV::deserialize(const uint8 *buf, unsigned size)
+{
+	if (size < cTLLVHeaderSize + cTLLVMinBlockSize) {
+		return RES_INVARG;
+	}
+
+	unsigned bytesLeft = size;
+	unsigned offset = 0;
+	const uint8 *ptr = buf;
+
+	TLLVTag tag = ( uint64 ) *ptr++ << 56;
+	tag |= ( uint64 ) *ptr++ << 48;
+	tag |= ( uint64 ) *ptr++ << 40;
+	tag |= ( uint64 ) *ptr++ << 32;
+	tag |= ( uint64 ) *ptr++ << 24;
+	tag |= ( uint64 ) *ptr++ << 16;
+	tag |= ( uint64 ) *ptr++ << 8;
+	tag |= ( uint64 ) *ptr++;
+	offset += sizeof(tag);
+	bytesLeft -= sizeof(tag);
+
+	uint32 blockSize = ( uint32 ) *ptr++ << 24;
+	blockSize |= ( uint32 ) *ptr++ << 16;
+	blockSize |= ( uint32 ) *ptr++ << 8;
+	blockSize |= ( uint32 ) *ptr++;
+	offset += sizeof(blockSize);
+	bytesLeft -= sizeof(blockSize);
+
+	uint32 valueSize = ( uint32 ) *ptr++ << 24;
+	valueSize |= ( uint32 ) *ptr++ << 16;
+	valueSize |= ( uint32 ) *ptr++ << 8;
+	valueSize |= ( uint32 ) *ptr++;
+	offset += sizeof(valueSize);
+	bytesLeft -= sizeof(valueSize);
+
+	if (blockSize % cTLLVMinBlockSize != 0) {
+		printf("TLLV Block size must be a multiple of 16, actual value %d\n", blockSize);
+		return RES_INVARG;
+	}
+
+	if (valueSize > blockSize) {
+		printf("TLLV value size exceeds block size: vs %d, bs %d\n", valueSize, blockSize);
+		return RES_INVARG;
+	}
+
+	if (blockSize > bytesLeft) {
+		printf("TLLV block size exceeds payload length: bs %d, pl %d\n", blockSize, bytesLeft);
+		return RES_INVARG;
+	}
+
+	iTag = tag;
+	iValue.clear();
+	iValue.insert(iValue.end(), ptr, ptr + valueSize);
+
+	if (blockSize > valueSize)
+		iPadding.insert(iPadding.end(), ptr + valueSize, ptr + blockSize);
+
+	offset += blockSize;
+
+	return offset;
+}
+
+void TLLV::fillPadding()
+{
+	iPadding.clear();
+	unsigned padBytes = cMaxPaddingSize - iValue.size() % cMaxPaddingSize;
+	if (padBytes != 0) {
+		iPadding.reserve(padBytes);
+		for (unsigned ii = 0; ii < padBytes; ++ii) {
+			iPadding.push_back(rand() % 256);
+		}
+	}
+}
+
+unsigned TLLV::serializeGetSize()
+{
+	return cTLLVHeaderSize + iValue.size() + iPadding.size();
+}
+
+result_t TLLV::serialize(uint8 *buf, unsigned size)
+{
+	if (size < serializeGetSize())
+		return RES_INVARG;
+
+	uint8 *ptr = buf;
+	*ptr++ = (iTag >> 56) & 0xff;
+	*ptr++ = (iTag >> 48) & 0xff;
+	*ptr++ = (iTag >> 40) & 0xff;
+	*ptr++ = (iTag >> 32) & 0xff;
+	*ptr++ = (iTag >> 24) & 0xff;
+	*ptr++ = (iTag >> 16) & 0xff;
+	*ptr++ = (iTag >> 8) & 0xff;
+	*ptr++ = iTag & 0xff;
+
+	uint32 blockLen = iPadding.size() + iValue.size();
+	uint32 valueLen = iValue.size();
+
+	*ptr++ = (blockLen >> 24) & 0xff;
+	*ptr++ = (blockLen >> 16) & 0xff;
+	*ptr++ = (blockLen >> 8) & 0xff;
+	*ptr++ = blockLen & 0xff;
+
+	*ptr++ = (valueLen >> 24) & 0xff;
+	*ptr++ = (valueLen >> 16) & 0xff;
+	*ptr++ = (valueLen >> 8) & 0xff;
+	*ptr++ = valueLen & 0xff;
+
+	memcpy(ptr, iValue.data(), iValue.size());
+	ptr += iValue.size();
+
+	memcpy(ptr, iPadding.data(), iPadding.size());
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: ckc-gen/TLLV.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_CKC_GEN_TLLV_H__
+#define __ATDS_RG_FAIRPLAY_CKC_GEN_TLLV_H__
+
+#include <rg/core/Common.h>
+#include <vector>
+
+namespace rg {
+
+class TLLV
+{
+public:
+	/// Size of random padding that will be appended to TLLV byte stream during serialization
+	static const unsigned cMaxPaddingSize = 64;
+	/// Size of the TLLV block
+	static const unsigned cTLLVBlockSize = 4;
+	/// Size of the TLLV value
+	static const unsigned cTLLVValueSize = 4;
+
+	typedef uint64 TLLVTag;
+
+	static const unsigned cTLLVHeaderSize = sizeof(TLLVTag) + cTLLVBlockSize + cTLLVValueSize;
+	static const unsigned cTLLVMinBlockSize = 16;
+
+	/** deserialize TLLV from byte stream */
+	int deserialize(const uint8 *buf, unsigned size);
+
+	void fillPadding();
+
+	/** get size that the byte stream would occupy after serialization */
+	unsigned serializeGetSize();
+	/** serialize TLLV from members */
+	result_t serialize(uint8 *buf, unsigned size);
+
+	TLLVTag iTag; /// TLLV tag
+	std::vector< uint8 > iValue; /// TLLV value bytes
+	std::vector< uint8 > iPadding;
+};
+
+enum TLLVSPCTagValues
+{
+	eSKR1 = 0x3d1a10b8bffac2ec,
+	eSKR1Integrity = 0xb349d4809e910687,
+	eARSeed = 0x89c90f12204106b2,
+	eR2 = 0x71b5595ac1521133,
+	eTagReturnRequest = 0x19f9d4e5ab7609cb,
+	eAssetId = 0x1bf7f53f5d5d5a1f,
+	eTransactionId = 0x47aa7ad3440577de,
+	eProtocolVersionsSupported = 0x67b8fb79ecce1a13,
+	eProtocolVersionUsed = 0x5d81bcbcc7f61703,
+	eStreamingIndicator = 0xabb0256a31843974,
+	eMediaPlaybackState = 0xeb8efdf2b25ab3a0,
+};
+
+enum TLLVCKCTagValues
+{
+	eEncryptedCK = 0x58b38165af0e3d5a,
+	eR1 = 0xea74c4645d5efee9,
+	eCKDuration = 0x47acf6a418cd091a,
+	eHDCPEnforcement = 0x2e52f1530d8ddb4a,
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_CKC_GEN_TLLV_H__
+
+================
+File: ckc-gen/TomcryptInit.cpp
+================
+#include <tfm.h>
+#include <tomcrypt.h>
+
+static int tomcryptInit()
+{
+	ltc_mp = tfm_desc;
+
+	register_hash(&sha1_desc);
+
+	register_cipher(&aes_desc);
+
+	return 0;
+}
+
+static int dummy = tomcryptInit();
+
+================
+File: dfunctions/template/dfunction.c
+================
+#include "../../src/DFunction.h"
+
+extern int DFUNCTION (const uint8_t* appSecretKey, unsigned appSecretKeyLength, 
+          const uint8_t* randomBlock, unsigned randomBlockLength,
+          uint8_t* derivedKey)
+{
+	return DFUNCTION_OK;
+}
+
+================
+File: dfunctions/template/Makefile
+================
+BIN=libdfunction_dummy.so
+
+ifndef $(CC)
+	CC=gcc
+endif
+
+ifndef $(LD)
+	$(LD)=gcc
+endif
+
+CFLAGS+= -g -O3 -fPIC
+LIBS+= 
+
+CFLAGS+=$(EXTRA_CFLAGS)
+LDFLAGS+=$(EXTRA_LDFLAGS)
+
+
+
+SRCS= 	 dfunction.c \
+
+OBJS:= $(patsubst %.c, %.o, $(SRCS))
+
+.PHONY : all distclean clean 
+
+all: $(BIN)
+
+$(BIN): $(OBJS)
+	$(LD) -shared -o $(BIN) $(LDFLAGS) $(OBJS) $(LIBS)
+
+obj:
+	mkdir obj
+
+distclean: clean
+
+clean:
+	rm -f  $(OBJS) $(BIN)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+================
+File: etc/server.pem
+================
+-----BEGIN CERTIFICATE-----
+MIICWDCCAcGgAwIBAgIJAOxI3dLRo0kBMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV
+BAYTAlBMMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
+aWRnaXRzIFB0eSBMdGQwHhcNMTcwMTE4MTUwNjMxWhcNMTcwMjE3MTUwNjMxWjBF
+MQswCQYDVQQGEwJQTDETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50
+ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKB
+gQDDmeoYl574KAz/sl0UNX10lg1qrR6XaHN2JkQsyv2B2VOYJr1Db7TtdM4zxVug
+5YH7JNBtP9Sv25f/Shvoi9lE3by1KphX9Ryf06Jv7r0QEpNsLVGlfyMZ3EqCXey/
+ve794jhNi69EPwRuHLHN9IzdyzDiy5ES0XbgdTcjRJ3yrwIDAQABo1AwTjAdBgNV
+HQ4EFgQUMtR/VqnZKUt1wBVXr1o5fuWdtZ4wHwYDVR0jBBgwFoAUMtR/VqnZKUt1
+wBVXr1o5fuWdtZ4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCLfMxg
+qm50Dky6O0r0+p2zqjmxhZdP2jEv2g2Ffh1upT0mag4HaMlW1EA0yQrFgjK0RP67
+QFjVo3j8jISyFqgL5QTfmdRQeFWtvqqwpZFwnZ5KhJQ5ONUbPLiBcX6LUoN2u76a
+FQy30b5i+G6pWUqubqNQIzDzzmWknF537p0kbg==
+-----END CERTIFICATE-----
+
+================
+File: server/AccessLog.cpp
+================
+#include "AccessLog.h"
+#include <cstdio>
+#include <ctime>
+#include <fcntl.h>
+#include <sys/time.h>
+
+//
+static const unsigned cMessageBufSize = 1024;
+
+namespace rg {
+
+AccessLog::AccessLog()
+{
+}
+
+result_t AccessLog::open(const std::string &filename)
+{
+	int fd = openFile(filename);
+	if (fd < 0)
+		return RES_IOERR;
+
+	close(fd);
+
+	iFilename = filename;
+	return RES_OK;
+}
+
+static int writeTimestamp(char *buf, unsigned size)
+{
+	struct tm tm;
+	struct timeval tv;
+	gettimeofday(&tv, NULL);
+	localtime_r(&tv.tv_sec, &tm);
+	tm.tm_year += 1900;
+	tm.tm_mon += 1;
+
+	int written = snprintf(buf, size, "[%4d.%02d.%02d %2d:%02d:%02d.%03ld] ", tm.tm_year, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec, tv.tv_usec / 1000);
+	return written;
+}
+
+void AccessLog::printf(const char *format, ...)
+{
+	char *msgBuf = new char[cMessageBufSize];
+
+	char *ptr = msgBuf;
+	unsigned left = cMessageBufSize;
+
+	int tstampSize = writeTimestamp(ptr, left);
+	ptr += tstampSize;
+	left -= tstampSize;
+
+	va_list args;
+	va_start(args, format);
+	int printed = vsnprintf(ptr, left, format, args);
+	va_end(args);
+
+	// Add newline
+	if (( uint32 ) printed < left - 1) {
+		ptr[printed] = 10;
+		ptr[printed + 1] = 0;
+		printed++;
+	} else {
+		ptr[printed - 1] = 10;
+	}
+
+	int fd = openFile(iFilename);
+
+	if (fd >= 0) {
+		write(fd, msgBuf, tstampSize + printed);
+		close(fd);
+	}
+
+	delete[] msgBuf;
+}
+
+int AccessLog::openFile(const std::string &filename)
+{
+	static const int fileMode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH;
+	return ::open(filename.c_str(), O_WRONLY | O_CREAT | O_NDELAY | O_APPEND, fileMode);
+}
+
+}; // namespace rg
+
+================
+File: server/AccessLog.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_ACCESSLOG_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_ACCESSLOG_H__
+
+#include <atomic>
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class AccessLog
+{
+public:
+	AccessLog();
+	result_t open(const std::string &filename);
+
+	void printf(const char *format, ...);
+
+private:
+	int openFile(const std::string &filename);
+
+	std::string iFilename;
+};
+
+}; // end namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_ACCESSLOG_H__
+
+================
+File: server/CredentialsStore.cpp
+================
+#include "CredentialsStore.h"
+#include "Utils.h"
+#include <dlfcn.h>
+#include <fstream>
+#include <tomcrypt.h>
+
+namespace rg {
+
+static const unsigned cSHASize = 20;
+
+static result_t readFileLines(const std::string &path, std::vector< std::string > &lines)
+{
+	std::ifstream ifs(path);
+	if (!ifs.is_open())
+		return RES_IOERR;
+
+	std::string line;
+	while (std::getline(ifs, line)) {
+		lines.push_back(line);
+	}
+
+	return RES_OK;
+}
+
+struct CredentialsDesc
+{
+	std::string iFriendlyName;
+	std::string iUsername;
+	std::string iPassword;
+	std::string iServerRSAKeyDerPath;
+	std::string iAppCertPath;
+	std::string iAppSecretKeyPath;
+	unsigned iFileLineNum;
+};
+
+static size_t nextToken(const std::string &str, size_t pos, std::string &token)
+{
+	bool trailingColon = false;
+	size_t start = str.find_first_not_of("\t ", pos);
+	if (start == std::string::npos)
+		return std::string::npos;
+	size_t end = str.find(':', start);
+	if (end != std::string::npos)
+		trailingColon = true;
+	size_t tokend = end;
+	if (trailingColon)
+		--tokend;
+	tokend = str.find_last_not_of("\t ", tokend);
+	if (tokend == std::string::npos || tokend < start)
+		return std::string::npos;
+
+	token = str.substr(start, tokend + 1 - start);
+	if (trailingColon)
+		end++;
+	if (end == str.size())
+		return std::string::npos;
+	else
+		return end;
+}
+
+static result_t parseCredLines(const std::vector< std::string > &lines, std::vector< CredentialsDesc > &credDescs)
+{
+	credDescs.clear();
+	for (unsigned ii = 0; ii < lines.size(); ++ii) {
+		const std::string &line = lines[ii];
+		const unsigned lineNum = ii + 1;
+		if (line.empty())
+			continue;
+		size_t start = line.find_first_not_of(" \t");
+		if (start == std::string::npos)
+			continue;
+
+		if (line[start] == '#')
+			continue;
+
+		std::string friendlyName;
+		start = nextToken(line, start, friendlyName);
+		if (friendlyName.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "friendly_name field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start == std::string::npos) {
+			Log::getInstance().printf(Log::LOG_ERROR, "syntax error in credentials file near friendly_name field, line %u", lineNum);
+			continue;
+		}
+
+		std::string username;
+		start = nextToken(line, start, username);
+		if (username.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "username field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start == std::string::npos) {
+			Log::getInstance().printf(Log::LOG_ERROR, "syntax error in credentials file near username field, line %u", lineNum);
+			continue;
+		}
+
+		std::string password;
+		start = nextToken(line, start, password);
+		if (password.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "password field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start == std::string::npos) {
+			Log::getInstance().printf(Log::LOG_ERROR, "syntax error in credentials file near password field, line %u", lineNum);
+			continue;
+		}
+
+		std::string serverRsaKeyDerPath;
+		start = nextToken(line, start, serverRsaKeyDerPath);
+		if (serverRsaKeyDerPath.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "server_rsa_key_der_path field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start == std::string::npos) {
+			Log::getInstance().printf(Log::LOG_ERROR, "syntax error in credentials file near server_rsa_key_der_path field, line %u", lineNum);
+			continue;
+		}
+
+		std::string appCertPath;
+		start = nextToken(line, start, appCertPath);
+		if (appCertPath.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "app_cert_path field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start == std::string::npos) {
+			Log::getInstance().printf(Log::LOG_ERROR, "syntax error in credentials file near app_cert_path field, line %u", lineNum);
+			continue;
+		}
+
+		std::string appSecretKeyPath;
+		start = nextToken(line, start, appSecretKeyPath);
+		if (appSecretKeyPath.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "app_secret_key_path field missing from credentials file, line %u", lineNum);
+			continue;
+		}
+		if (start != std::string::npos) {
+			Log::getInstance().printf(Log::LOG_WARNING, "Extra tokens at end of line %u", lineNum);
+		}
+
+		CredentialsDesc desc;
+		desc.iFriendlyName = friendlyName;
+		desc.iUsername = username;
+		desc.iPassword = password;
+		desc.iServerRSAKeyDerPath = serverRsaKeyDerPath;
+		desc.iAppCertPath = appCertPath;
+		desc.iAppSecretKeyPath = appSecretKeyPath;
+		desc.iFileLineNum = lineNum;
+
+		credDescs.push_back(desc);
+	}
+	return (!credDescs.empty()) ? RES_OK : RES_ERROR;
+}
+
+static result_t getAppCertSHA(const std::string &filename, std::vector< uint8 > &sha)
+{
+	std::vector< uint8 > appCert;
+	result_t res = readFileToVector(filename, appCert);
+	if (res != RES_OK) {
+		return res;
+	}
+	sha.resize(cSHASize);
+
+	hash_state state;
+	sha1_init(&state);
+	sha1_process(&state, appCert.data(), appCert.size());
+	sha1_done(&state, sha.data());
+
+	return RES_OK;
+}
+
+/*
+static result_t loadDFunction(const std::string &filename, DFunction *func, void **ldHandle)
+{
+	void *handle = dlmopen(LM_ID_NEWLM, filename.c_str(), RTLD_NOW | RTLD_LOCAL);
+	if (handle == NULL) {
+		printf("dlopen() failed on %s\n", filename.c_str());
+		return RES_ERROR;
+	}
+
+	void *funcPtr = dlsym(handle, DFUNCTION_SYMBOL_NAME);
+
+	if (funcPtr == NULL) {
+		Log::getInstance().printf(Log::LOG_ERROR, "dlsym() could not find dFunction inside %s", filename.c_str());
+		dlclose(handle);
+		return RES_NOENT;
+	}
+
+	*func = ( DFunction ) funcPtr;
+	*ldHandle = handle;
+
+	return RES_OK;
+}
+*/
+
+CredentialsStore::~CredentialsStore()
+{
+}
+
+result_t CredentialsStore::open(const std::string &filename)
+{
+	if (!iCredentialsEntries.empty())
+		return RES_OPENED;
+
+	std::vector< std::string > lines;
+	result_t res = readFileLines(filename, lines);
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error reading credentials file %s", filename.c_str());
+		return res;
+	}
+
+	std::vector< CredentialsDesc > credDescs;
+	res = parseCredLines(lines, credDescs);
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "No valid credentials records found in file %s", filename.c_str());
+		return res;
+	}
+
+	for (unsigned ii = 0; ii < credDescs.size(); ++ii) {
+		CredentialsDesc &desc = credDescs[ii];
+		CredentialsEntry entry;
+		entry.iFriendlyName = desc.iFriendlyName;
+		entry.iUsername = desc.iUsername;
+		entry.iPassword = desc.iPassword;
+		res = readFileToVector(desc.iServerRSAKeyDerPath, entry.iServerRSAKeyDer);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error reading RSA key DER for %s (line %u)", desc.iServerRSAKeyDerPath.c_str(), desc.iFileLineNum);
+			continue;
+		}
+		res = getAppCertSHA(desc.iAppCertPath, entry.iAppCertSHA);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error processing SHA1 for app cert file %s (line %u)", desc.iAppCertPath.c_str(), desc.iFileLineNum);
+			continue;
+		}
+		res = readFileToVector(desc.iAppSecretKeyPath, entry.iAppSecretKey);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error reading application secret key file %s (line %u)", desc.iAppSecretKeyPath.c_str(), desc.iFileLineNum);
+			continue;
+		}
+		iCredentialsEntries[entry.iUsername] = entry;
+	}
+
+	return (!iCredentialsEntries.empty()) ? RES_OK : RES_ERROR;
+}
+
+CredentialsEntry *CredentialsStore::find(const std::string &username)
+{
+	auto it = iCredentialsEntries.find(username);
+	if (it == iCredentialsEntries.end())
+		return NULL;
+	else
+		return &(it->second);
+}
+
+} // end namespace rg
+
+================
+File: server/CredentialsStore.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_CREDENTIALSSTORE_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_CREDENTIALSSTORE_H__
+
+#include "DFunction.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+struct CredentialsEntry
+{
+public:
+	std::string iFriendlyName;
+	std::string iUsername;
+	std::string iPassword;
+	std::vector< uint8 > iServerRSAKeyDer;
+	std::vector< uint8 > iAppCertSHA;
+	std::vector< uint8 > iAppSecretKey;
+};
+
+class CredentialsStore
+{
+public:
+	CredentialsStore(){};
+	~CredentialsStore();
+	result_t open(const std::string &filename);
+	CredentialsEntry *find(const std::string &username);
+
+private:
+	std::map< std::string, CredentialsEntry > iCredentialsEntries;
+
+	CredentialsStore(const CredentialsStore &){};
+	CredentialsStore &operator=(const CredentialsStore &)
+	{
+		return *this;
+	}
+};
+
+} // end namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_CREDENTIALSSTORE_H__
+
+================
+File: server/dFunction.cpp
+================
+#include "DFunction.h"
+#include <tomcrypt.h>
+#include <vector>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define PRIME (( uint32_t ) 813416437UL)
+#define NB_RD 16
+
+static const unsigned cSHA1Size = 20;
+static const unsigned cAESSize = 16;
+static const unsigned cPaddedR1Len = 56;
+
+int dFunction(const uint8_t *appSecretKey, unsigned appSecretKeyLength, const uint8_t *randomBlock, unsigned randomBlockLength, uint8_t *derivedKey)
+{
+	if (randomBlockLength >= cPaddedR1Len)
+		return DFUNCTION_ERROR;
+
+	if (appSecretKeyLength != cAESSize)
+		return DFUNCTION_ERROR;
+
+	std::vector< uint8_t > padded;
+	padded.insert(padded.end(), &randomBlock[0], &randomBlock[randomBlockLength]);
+	padded.push_back(0x80);
+	padded.insert(padded.end(), cPaddedR1Len - padded.size(), 0);
+
+	std::vector< uint32_t > mBlock;
+	for (unsigned i = 0; i < 14; ++i) {
+		mBlock.push_back((padded[4 * i] << 24) ^ (padded[4 * i + 1] << 16) ^ (padded[4 * i + 2] << 8) ^ (padded[4 * i + 3]));
+	}
+
+	for (unsigned i = 1; i < 7; ++i) {
+		mBlock[0] += mBlock[i];
+	}
+	mBlock[1] = 0;
+	for (unsigned i = 0; i < 7; ++i) {
+		mBlock[1] += mBlock[i + 7];
+	}
+
+	for (unsigned i = 0; i < 2; ++i) {
+		for (unsigned r = 0; r < NB_RD; ++r) {
+			if (mBlock[i] & 1) {
+				mBlock[i] >>= 1;
+			} else {
+				mBlock[i] = (3 * mBlock[i] + 1) % PRIME;
+			}
+		}
+	}
+
+	padded.push_back(mBlock[0] & 0xff);
+	padded.push_back((mBlock[0] >> 8) & 0xff);
+	padded.push_back((mBlock[0] >> 16) & 0xff);
+	padded.push_back((mBlock[0] >> 24) & 0xff);
+
+	padded.push_back(mBlock[1] & 0xff);
+	padded.push_back((mBlock[1] >> 8) & 0xff);
+	padded.push_back((mBlock[1] >> 16) & 0xff);
+	padded.push_back((mBlock[1] >> 24) & 0xff);
+
+	std::vector< uint8_t > paddedSha;
+	paddedSha.resize(cSHA1Size);
+
+	hash_state sha1Context;
+	sha1_init(&sha1Context);
+
+	sha1_process(&sha1Context, padded.data(), padded.size());
+
+	sha1_done(&sha1Context, paddedSha.data());
+
+	symmetric_ECB ecb;
+
+	ecb_start(find_cipher("aes"), appSecretKey, appSecretKeyLength, 0, &ecb);
+	ecb_encrypt(paddedSha.data(), derivedKey, cAESSize, &ecb);
+	ecb_done(&ecb);
+
+	return DFUNCTION_OK;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+================
+File: server/DFunction.h
+================
+#ifndef __RG_FAIRPLAY_SERVER_DFUNCTION_H__
+#define __RG_FAIRPLAY_SERVER_DFUNCTION_H__
+
+#include <stdint.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define DERIVED_KEY_LENGTH (16)
+#define DFUNCTION dFunction
+#define DFUNCTION_SYMBOL_NAME "dFunction"
+
+#define DFUNCTION_OK (0)
+#define DFUNCTION_ERROR (-1)
+
+typedef int (*DFunction)(const uint8_t *appSecretKey, unsigned appSecretKeyLength, const uint8_t *randomBlock, unsigned randomBlockLength, uint8_t *derivedKey);
+
+int dFunction(const uint8_t *appSecretKey, unsigned appSecretKeyLength, const uint8_t *randomBlock, unsigned randomBlockLength, uint8_t *derivedKey);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // __RG_FAIRPLAY_SERVER_DFUNCTION_H__
+
+================
+File: server/FPLicenseServer.cpp
+================
+#include "FPLicenseServer.h"
+#include <cstdio>
+#include <tomcrypt.h>
+#ifdef _DO_HEXDUMP
+#include "hexdump.h"
+#endif // _DO_HEXDUMP
+namespace rg
+{
+
+static const char* const cKeyHeader = "key";
+static const char* const cIvHeader = "iv";
+static const char* const cValidityHeader = "validity";
+static const std::string cPersistentIndefinite = "persistent-indefinite";
+static const std::string cPersistent = "persistent";
+static const std::string cLease = "lease";
+static const std::string cRental = "rental";
+static const std::string cLeaseRental = "lease-rental";
+static const char* const cLeasePeriodHeader = "lease";
+static const char* const cRentalPeriodHeader = "rental";
+static const char* const cHdcpHeader = "hdcp";
+
+static std::string getClientAddr(MHD_Connection* conn)
+{
+	char addrbuf[128];
+	char portbuf[64];
+	std::string ret;
+	const MHD_ConnectionInfo *cInfo = MHD_get_connection_info(conn, MHD_CONNECTION_INFO_CLIENT_ADDRESS);
+	struct sockaddr_in *sockaddr = (struct sockaddr_in *)cInfo->client_addr;
+	uint16 port = ntohs(sockaddr->sin_port);
+	if (inet_ntop(AF_INET, &sockaddr->sin_addr, addrbuf, 128) == NULL)
+		return ret;
+	snprintf(portbuf, 64, "%-5u", port);
+	ret += addrbuf;
+	ret += ':';
+	ret += portbuf;
+	return ret;
+}
+
+FPLicenseServer::FPLicenseServer()
+	: iDaemon(nullptr)
+	, iAccessLog(nullptr)
+{
+
+}
+
+result_t FPLicenseServer::setTLS(const std::string& key, const std::string& cert)
+{
+	iServerKeyPem = key;
+	iServerCertPem = cert;
+
+	// TODO : perhaps some validation
+	return RES_OK;
+}
+
+result_t FPLicenseServer::setAccesLogFilename(const std::string& filename)
+{
+	iAccessLogFilename = filename;
+	return RES_OK;
+}
+
+result_t FPLicenseServer::open(int sockFd)
+{
+	if (!iAccessLogFilename.empty()) {
+		AccessLog* log = new AccessLog;
+		if (log->open(iAccessLogFilename) == RES_OK) {
+			iAccessLog = log;
+		} else {
+			delete log;
+		}
+	}
+
+	if (iDaemon != nullptr) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Server already open");
+		return RES_OPENED;
+	}
+
+	unsigned int flags  = MHD_USE_THREAD_PER_CONNECTION
+                        | MHD_USE_SELECT_INTERNALLY
+                        | MHD_USE_ITC
+                        | MHD_USE_DEBUG;
+
+	if (!iServerCertPem.empty() && !iServerKeyPem.empty()) {
+		iDaemon = MHD_start_daemon (flags | MHD_USE_TLS, 0/*4433*/, NULL, NULL, handleRequestCb, this,
+			 MHD_OPTION_HTTPS_MEM_KEY, iServerKeyPem.c_str(),
+			 MHD_OPTION_HTTPS_MEM_CERT, iServerCertPem.c_str(),
+			 MHD_OPTION_NOTIFY_COMPLETED, handleRequestCompleted, this,
+			 MHD_OPTION_LISTEN_SOCKET, sockFd,
+			 MHD_OPTION_CONNECTION_TIMEOUT, 5,
+			 MHD_OPTION_END);
+	} else
+		iDaemon = MHD_start_daemon (flags, 4433, NULL, NULL, handleRequestCb, this,
+			MHD_OPTION_NOTIFY_COMPLETED, handleRequestCompleted, this,
+			MHD_OPTION_LISTEN_SOCKET, sockFd,
+			MHD_OPTION_CONNECTION_TIMEOUT, 5,
+			MHD_OPTION_END);
+	if (iDaemon == nullptr) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Unable to start HTTP daemon");
+		return RES_ERROR;
+	}
+	return RES_OK;
+}
+
+result_t FPLicenseServer::close()
+{
+	if (iDaemon != nullptr) {
+        MHD_stop_daemon(iDaemon);
+        iDaemon = NULL;
+	}
+
+	if (iAccessLog != NULL) {
+		delete iAccessLog;
+		iAccessLog = NULL;
+	}
+	return RES_OK;
+}
+
+MHD_Result FPLicenseServer::handleRequestCb(void* cls, struct MHD_Connection* connection, const char* url, const char* method, const char* version, const char* upload_data, size_t* upload_data_size, void** ptr)
+{
+	FPLicenseServer* serv = (FPLicenseServer*) cls;
+	return serv->onRequest(connection, url, method, version, upload_data, upload_data_size, ptr);
+}
+
+static unsigned long long nowMs()
+{
+    unsigned long long nowTime;
+    struct timespec ts;
+    clock_gettime(CLOCK_MONOTONIC, &ts);
+    nowTime = ts.tv_sec * 1000;
+    nowTime += ts.tv_nsec / 1000000;
+    return nowTime;
+}
+
+MHD_Result FPLicenseServer::onRequest(struct MHD_Connection* connection, const char* url,const char* method, const char* version, const char* upload_data, size_t* upload_data_size, void** ptr)
+{
+	unsigned long long startTimeMs = nowMs();
+
+	if (iAccessLog != NULL && *ptr == nullptr) { // Initial connect
+		iAccessLog->printf(">> Connection from %s", getClientAddr(connection).c_str());
+	}
+
+	if (strcmp (method, "GET") == 0) {
+    	return MHD_NO;
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u||%llu] Rejected from %s , only POST supported", 405, nowMs() - startTimeMs, getClientAddr(connection).c_str());
+		}
+	}
+
+	if (*ptr == nullptr) {
+    	*ptr = new std::vector<uint8>();
+    	return MHD_YES;
+    }
+
+    char *userBuf;
+	char *passBuf;
+	std::string userString;
+	std::string passString;
+
+  passBuf = NULL;
+	userBuf = MHD_basic_auth_get_username_password (connection, &passBuf);
+
+	if (userBuf != NULL) {
+		userString = userBuf;
+		free(userBuf);
+
+		if (passBuf != NULL) {
+			passString = passBuf;
+			free(passBuf);
+		} else {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u||%llu] Rejected from %s , no basic auth password", 401, nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			return MHD_NO;
+		}
+	} else {
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u||%llu] Rejected from %s , no basic auth username", 401, nowMs() - startTimeMs, getClientAddr(connection).c_str());
+		}
+		return MHD_NO;
+	}
+
+	std::string userFriendlyName;
+	std::vector<uint8> rsaKey;
+	std::vector<uint8> certSha;
+	std::vector<uint8> ask;
+
+	result_t res = authenticateUser(userString, passString, userFriendlyName, rsaKey, certSha, ask);
+
+	if (res == RES_NOENT) {
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u||%llu] Rejected from %s , username %s not found", 403, nowMs() - startTimeMs, getClientAddr(connection).c_str(), userString.c_str());
+		}
+		return MHD_NO;
+	}
+
+	if ( res == RES_NOPERM) {
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u|%s|%llu] Rejected from %s , password for %s didn't match", 403, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str(), userFriendlyName.c_str());
+		}
+		return MHD_NO;
+	}
+
+	if (res != RES_OK) {
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u|%s|%llu] Rejected from %s , not authenticated", 403, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+		}
+		return MHD_NO;
+	}
+
+	std::vector<uint8> contentKey;
+	std::vector<uint8> contentIv;
+
+	FPSHandler::EContentKeyValidity keyValidity = FPSHandler::eValidNone;
+	uint32 leaseSeconds = 0;
+	uint32 rentalSeconds = 0;
+
+	if (*upload_data_size > 0) {
+		std::vector<uint8>* vec = (std::vector<uint8>*) *ptr;
+		vec->insert(vec->end(), (const uint8*) upload_data, (const uint8*) upload_data + *upload_data_size);
+		*upload_data_size = 0;
+		return MHD_YES;
+	} else {
+		std::vector<uint8>* vec = (std::vector<uint8>*) *ptr;
+
+		if (vec == NULL) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] Rejected from %s , no POST body", 400, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			return MHD_NO;
+		}
+		else if (vec->size() == 0) {
+			delete vec;
+			*ptr = nullptr;
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] Rejected from %s , empty POST data", 400, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			return MHD_NO;
+		}
+
+		res = getContentKeyFromHeader(connection, contentKey);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , no content key in headers", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Missing Content Key header.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = getContentIvFromHeader(connection, contentIv);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , no content IV in headers", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Missing Content IV header.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = getLeaseTypeFromHeader(connection, keyValidity);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , wrong key validity header",  MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Missing or wrong key validity parameter.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = getLeaseRentalPeriodFromHeader(connection, leaseSeconds, rentalSeconds);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , wrong rental/lease info header", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Invalid rental/lease info.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		FPSHandler::EHDCPState hdcpState = FPSHandler::eHDCPNone;
+
+		res = getHDCPFromHeader(connection, hdcpState);
+
+        if (res != RES_NOENT && res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , wrong hdcp enforcement header", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Invalid HDCP enforcement header.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		FPSHandler fps(rsaKey, ask);
+
+		res = fps.putSPCMessage(vec->data(), vec->size());
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , invalid SPC", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Invalid SPC message.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = fps.parseSPCPayload();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , malformed SPC", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Error parsing SPC payload.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = fps.verifySPCTLLVs();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , malformed SPC, missing TLLVs ", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Incomplete set of TLLV blocks.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = fps.assembleReturnTLLVs();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , failed to prepare return TLLVs", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Failed to prepare return requested blocks.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = fps.verifyFPSVersion();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , FPS version verification failed", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>FPS version verification failed.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		res = fps.decryptSessionKey();
+
+		if (res != RES_OK) {
+			unsigned int httpStatus = MHD_HTTP_BAD_REQUEST;
+			if (res == RES_ERROR) {
+				httpStatus = MHD_HTTP_INTERNAL_SERVER_ERROR;
+				if (iAccessLog != NULL) {
+					iAccessLog->printf("<< [%u|%s|%llu] INTERNAL_SERVER_ERROR for %s , session key decryption error", MHD_HTTP_INTERNAL_SERVER_ERROR, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+				}
+			} else {
+				if (iAccessLog != NULL) {
+					iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , session key decryption error", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+				}
+			}
+
+			sendTextResponse(connection, "<html><body>Error decrypting session key.</body></html>\n", httpStatus, true);
+			return MHD_YES;
+		}
+
+		res = fps.verifyCryptoBlockIntegrity();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] BAD_REQUEST for %s , session key integrity check failed", MHD_HTTP_BAD_REQUEST, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Session key integrity check failed.</body></html>\n", MHD_HTTP_BAD_REQUEST, true);
+			return MHD_YES;
+		}
+
+		/// SPC processing done
+
+		fps.setContentKeyExpiry(keyValidity, leaseSeconds, rentalSeconds);
+
+		res = fps.encryptContentKey(contentKey, contentIv);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] INTERNAL_SERVER_ERROR for %s , error encrypting content key", MHD_HTTP_INTERNAL_SERVER_ERROR, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Error encrypting Content Key.</body></html>\n", MHD_HTTP_INTERNAL_SERVER_ERROR, true);
+			return MHD_YES;
+		}
+
+		fps.setHDCP(hdcpState);
+
+		fps.fillR1TLLV();
+
+		res = fps.assembleCKCPayload();
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] INTERNAL_SERVER_ERROR for %s , error assembling CKC payload", MHD_HTTP_INTERNAL_SERVER_ERROR, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Error assembling CKC payload.</body></html>\n", MHD_HTTP_INTERNAL_SERVER_ERROR, true);
+			return MHD_YES;
+		}
+
+		std::vector<uint8> ckc;
+
+		res = fps.getCKC(ckc);
+
+		if (res != RES_OK) {
+			if (iAccessLog != NULL) {
+				iAccessLog->printf("<< [%u|%s|%llu] INTERNAL_SERVER_ERROR for %s , error creating CKC", MHD_HTTP_INTERNAL_SERVER_ERROR, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+			}
+			sendTextResponse(connection, "<html><body>Error creating CKC.</body></html>\n", MHD_HTTP_INTERNAL_SERVER_ERROR, true);
+			return MHD_YES;
+		}
+
+		if (iAccessLog != NULL) {
+			iAccessLog->printf("<< [%u|%s|%llu] OK for %s, [validity=0x%x] [lease=%u] [rental=%u] [hdcp=%d]", MHD_HTTP_OK, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str(),
+								keyValidity, leaseSeconds, rentalSeconds, (int) hdcpState);
+		}
+		sendBinaryResponse(connection, (const void*) ckc.data(), ckc.size(), MHD_HTTP_OK);
+
+		return MHD_YES;
+	}
+	iAccessLog->printf("<< [%u|%s|%llu] INTERNAL_SERVER_ERROR Unexpected server error for %s", MHD_HTTP_INTERNAL_SERVER_ERROR, userFriendlyName.c_str(), nowMs() - startTimeMs, getClientAddr(connection).c_str());
+	sendTextResponse(connection, "<html><body>Internal server error.</body></html>\n", MHD_HTTP_INTERNAL_SERVER_ERROR, true);
+	return MHD_NO;
+}
+
+result_t FPLicenseServer::setAuthorizedCredentials(std::shared_ptr<CredentialsStore>& credentials)
+{
+	iAuthorizedCredentials = credentials;
+	return RES_OK;
+}
+
+result_t FPLicenseServer::authenticateUser(const std::string& user, const std::string& password, std::string& friendlyName,
+			std::vector<uint8>& rsaKey, std::vector<uint8>& certSha, std::vector<uint8>& ask)
+{
+	CredentialsEntry* ent = iAuthorizedCredentials->find(user);
+	if (ent == NULL)
+		return RES_NOENT;
+
+    friendlyName = ent->iFriendlyName;
+
+	if(password != ent->iPassword)
+		return RES_NOPERM;
+
+	rsaKey = ent->iServerRSAKeyDer;
+	certSha = ent->iAppCertSHA;
+	ask = ent->iAppSecretKey;
+
+	return RES_OK;
+}
+
+result_t FPLicenseServer::getContentKeyFromHeader(struct MHD_Connection* connection, std::vector<uint8>& key)
+{
+	key.clear();
+	result_t res = RES_OK;
+	const char* keyBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cKeyHeader);
+	if (keyBuf != nullptr) {
+		unsigned keyBufLen = strlen(keyBuf);
+		if (keyBufLen == 0) {
+			return RES_INVARG;
+		}
+		unsigned long unb64bufLen = 2 * keyBufLen;
+		unsigned char* unb64buf = new unsigned char [unb64bufLen];
+
+
+        base64_decode((const unsigned char*)keyBuf, keyBufLen, unb64buf, &unb64bufLen);
+        if (unb64bufLen == 16) {
+        	key.insert(key.end(), unb64buf, unb64buf + unb64bufLen);
+		} else {
+			Log::getInstance().printf(Log::LOG_ERROR, "Invalid AES key length: %lu", unb64bufLen);
+			res = RES_INVARG;
+		}
+        delete [] unb64buf;
+	} else {
+		Log::getInstance().printf(Log::LOG_ERROR, "Missing key header");
+		res = RES_INVARG;
+	}
+	return res;
+}
+
+result_t FPLicenseServer::getContentIvFromHeader(struct MHD_Connection* connection, std::vector<uint8>& iv)
+{
+	iv.clear();
+	result_t res = RES_OK;
+	const char* ivBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cIvHeader);
+	if (ivBuf != nullptr) {
+		unsigned ivBufLen = strlen(ivBuf);
+		if (ivBufLen == 0) {
+			return RES_INVARG;
+		}
+		unsigned long unb64bufLen = 2 * ivBufLen;
+		unsigned char* unb64buf = new unsigned char [unb64bufLen];
+
+
+        base64_decode((const unsigned char*)ivBuf, ivBufLen, unb64buf, &unb64bufLen);
+        if (unb64bufLen == 16) {
+        	iv.insert(iv.end(), unb64buf, unb64buf + unb64bufLen);
+		} else {
+			Log::getInstance().printf(Log::LOG_ERROR, "Invalid AES IV length: %lu", unb64bufLen);
+			res = RES_INVARG;
+		}
+        delete [] unb64buf;
+	} else {
+		Log::getInstance().printf(Log::LOG_ERROR, "Missing IV header");
+		res = RES_INVARG;
+	}
+	return res;
+}
+
+result_t FPLicenseServer::getLeaseTypeFromHeader(struct MHD_Connection* connection, FPSHandler::EContentKeyValidity& leaseType)
+{
+	result_t res = RES_OK;
+	const char* validityBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cValidityHeader);
+	if (validityBuf == nullptr)
+		return RES_NOENT;
+
+	std::string validity = validityBuf;
+	if (validity == cLease) {
+		leaseType = FPSHandler::eValidLeaseOnly;
+	} else if (validity == cRental) {
+		leaseType = FPSHandler::eValidRentalOnly;
+	} else if (validity == cLeaseRental) {
+		leaseType = FPSHandler::eValidLeaseRental;
+	} else if (validity == cPersistentIndefinite) {
+		leaseType = FPSHandler::ePersistentIndefinite;
+	} else if (validity == cPersistent) {
+		leaseType = FPSHandler::ePersistentDuration;
+	} else {
+		Log::getInstance().printf(Log::LOG_ERROR, "Invalid lease type");
+		res = RES_INVARG;
+	}
+	return res;
+}
+
+result_t FPLicenseServer::getLeaseRentalPeriodFromHeader(struct MHD_Connection* connection, uint32& leaseSeconds, uint32& rentalSeconds)
+{
+	leaseSeconds = 0;
+	rentalSeconds = 0;
+
+	const char* leaseBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cLeasePeriodHeader);
+	if (leaseBuf != nullptr) {
+		leaseSeconds = atoi(leaseBuf);
+	}
+
+	const char* rentalBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cRentalPeriodHeader);
+	if (rentalBuf != nullptr) {
+		rentalSeconds = atoi(rentalBuf);
+	}
+
+	return RES_OK;
+}
+
+result_t FPLicenseServer::getHDCPFromHeader(struct MHD_Connection* connection, FPSHandler::EHDCPState& hdcpState)
+{
+	int hdcpVal = 0;
+	const char* hdcpBuf = MHD_lookup_connection_value (connection, MHD_HEADER_KIND, cHdcpHeader);
+	if (hdcpBuf != nullptr) {
+		if (!isdigit(hdcpBuf[0]))
+			return RES_INVARG;
+		hdcpVal = atoi(hdcpBuf);
+	} else {
+		return RES_NOENT;
+	}
+
+	switch (hdcpVal) {
+		case 0:
+			hdcpState = FPSHandler::eHDCPDisabled;
+			break;
+		case 1:
+			hdcpState = FPSHandler::eHDCPEnforced;
+			break;
+		default:
+			return RES_INVARG;
+	}
+
+	return RES_OK;
+}
+
+
+MHD_Result FPLicenseServer::handleRequestCompleted(void *cls, struct MHD_Connection *connection, void **con_cls, enum MHD_RequestTerminationCode toe)
+{
+	FPLicenseServer* serv = (FPLicenseServer*) cls;
+	return serv->onRequestCompleted(connection, con_cls, toe);
+}
+
+MHD_Result FPLicenseServer::onRequestCompleted(struct MHD_Connection* connection,void** con_cls, enum MHD_RequestTerminationCode toe)
+{
+	if (*con_cls != nullptr) {
+		std::vector<uint8>* vec = (std::vector<uint8>*) *con_cls;
+		delete vec;
+		*con_cls = nullptr;
+	}
+
+	return MHD_YES;
+}
+
+void FPLicenseServer::sendTextResponse(struct MHD_Connection* connection, const void* responseBody, unsigned responseBodySize,
+								unsigned int httpStatus, bool persistent)
+{
+	MHD_ResponseMemoryMode mode = persistent ? MHD_RESPMEM_PERSISTENT : MHD_RESPMEM_MUST_COPY;
+	struct MHD_Response * response = MHD_create_response_from_buffer (responseBodySize, (void *) responseBody,
+				mode);
+	MHD_queue_response (connection, httpStatus, response);
+	MHD_destroy_response (response);
+}
+
+void FPLicenseServer::sendTextResponse(struct MHD_Connection* connection, const char* responseBody,
+								unsigned int httpStatus, bool persistent)
+{
+    sendTextResponse(connection, responseBody, strlen((const char*)responseBody), httpStatus, persistent);
+}
+
+void FPLicenseServer::sendBinaryResponse(struct MHD_Connection* connection, const void* responseBody,
+								unsigned responseBodySize, unsigned int httpStatus)
+{
+	struct MHD_Response * response = MHD_create_response_from_buffer (responseBodySize, (void*) responseBody, MHD_RESPMEM_MUST_COPY);
+	MHD_add_response_header (response, "Content-Type", "application/octet-stream");
+	MHD_queue_response (connection, httpStatus, response);
+	MHD_destroy_response (response);
+}
+
+};
+
+================
+File: server/FPLicenseServer.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_FPLICENSESERVER_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_FPLICENSESERVER_H__
+
+#include "AccessLog.h"
+#include "CredentialsStore.h"
+#include "FPSHandler.h"
+#include <memory>
+#include <microhttpd.h>
+#include <mutex>
+#include <rg/core/Common.h>
+
+#if MHD_VERSION <= 0x00097000
+typedef int MHD_Result;
+#endif
+
+namespace rg {
+
+class FPLicenseServer
+{
+public:
+	FPLicenseServer();
+
+	result_t setTLS(const std::string &key, const std::string &cert);
+	result_t setAccesLogFilename(const std::string &filename);
+	result_t open(int sockFd);
+	result_t close();
+	result_t setAuthorizedCredentials(std::shared_ptr< CredentialsStore > &credentials);
+
+private:
+	struct MHD_Daemon *iDaemon;
+	std::string iServerKeyPem;
+	std::string iServerCertPem;
+	std::shared_ptr< CredentialsStore > iAuthorizedCredentials;
+	std::string iAccessLogFilename;
+	AccessLog *iAccessLog;
+
+	static MHD_Result handleRequestCb(void *cls, struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, size_t *upload_data_size, void **ptr);
+	MHD_Result onRequest(struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, size_t *upload_data_size, void **ptr);
+	static MHD_Result handleRequestCompleted(void *cls, struct MHD_Connection *connection, void **con_cls, enum MHD_RequestTerminationCode toe);
+	MHD_Result onRequestCompleted(struct MHD_Connection *connection, void **con_cls, enum MHD_RequestTerminationCode toe);
+	result_t authenticateUser(const std::string &user, const std::string &password, std::string &friendlyName, std::vector< uint8 > &rsaKey, std::vector< uint8 > &certSha, std::vector< uint8 > &ask);
+	result_t getContentKeyFromHeader(struct MHD_Connection *connection, std::vector< uint8 > &key);
+	result_t getContentIvFromHeader(struct MHD_Connection *connection, std::vector< uint8 > &iv);
+	result_t getLeaseTypeFromHeader(struct MHD_Connection *connection, FPSHandler::EContentKeyValidity &leaseType);
+	result_t getLeaseRentalPeriodFromHeader(struct MHD_Connection *connection, uint32 &leaseSeconds, uint32 &rentalSeconds);
+	result_t getHDCPFromHeader(struct MHD_Connection *connection, FPSHandler::EHDCPState &hdcpState);
+	void sendBinaryResponse(struct MHD_Connection *connection, const void *responseBody, unsigned responseBodySize, unsigned int httpStatus);
+	void sendTextResponse(struct MHD_Connection *connection, const void *responseBody, unsigned responseBodySize, unsigned int httpStatus, bool persistent = false);
+	void sendTextResponse(struct MHD_Connection *connection, const char *responseBody, unsigned int httpStatus, bool persistent = false);
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_FPLICENSESERVER_H__
+
+================
+File: server/FPSHandler.cpp
+================
+#include "FPSHandler.h"
+#include <set>
+#ifdef _DO_HEXDUMP
+#	include "hexdump.h"
+#endif // _DO_HEXDUMP
+#include "SKR1.h"
+#include <algorithm>
+#include <cstdlib>
+#include <tomcrypt.h>
+
+namespace rg {
+
+static const unsigned cFPSVersion = 1;
+static const unsigned cContentKeyDurationBlockSize = 16;
+static const uint32 cContentKeyDurationReserved = 0x86d34a3a;
+static const unsigned cSHA1Size = 20;
+static const uint32 cCKCVersion = 1;
+static const unsigned cMediaPlaybackTLLVSize = 16;
+static const uint64 cHDCPNotRequired = 0xEF72894CA7895B78;
+static const uint64 cHDCPType0Required = 0x40791AC78BD5C571;
+
+static const std::set< TLLV::TLLVTag > cMandatoryTLLVTags = {
+	eSKR1, eSKR1Integrity, eARSeed, eR2, eTagReturnRequest, eAssetId, eTransactionId, eProtocolVersionsSupported, eProtocolVersionUsed,
+	/// TODO - programming guide says the below are MANDATORY
+	/// but reference implementation claims otherwise
+	/*
+	eStreamingIndicator,
+	eMediaPlaybackState
+	*/
+};
+
+FPSHandler::FPSHandler(const std::vector< uint8 > &rsaServerKeyDer, const std::vector< uint8 > &appSecretKey)
+	: iRsaServerKeyDer(rsaServerKeyDer)
+	, iAppSecretKey(appSecretKey)
+	, iSKR1(iAppSecretKey, dFunction)
+	, iCKValidity(eValidNone)
+	, iHdcpState(eHDCPNone)
+{
+}
+
+result_t FPSHandler::putSPCMessage(const uint8 *data, size_t size)
+{
+	result_t res = iSPC.load(iRsaServerKeyDer, data, size);
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Error loading SPC");
+		return res;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::parseSPCPayload()
+{
+	int bytesLeft = iSPC.iSpcPayload.size();
+	uint8 *ptr = iSPC.iSpcPayload.data();
+
+	while (bytesLeft > 0) {
+		TLLV tllv;
+		int res = tllv.deserialize(ptr, bytesLeft);
+		if (res < 0) {
+			Log::getInstance().printf(Log::LOG_DEBUG, "Error deserializing SPC TLLV");
+			return RES_INVARG;
+		}
+		iSPCTLLVs[tllv.iTag] = tllv;
+		bytesLeft -= res;
+		ptr += res;
+	}
+#ifdef _DO_HEXDUMP
+	for (auto it = iSPCTLLVs.begin(); it != iSPCTLLVs.end(); ++it) {
+		printf("-------------------------------\n0x%llx\n", it->first);
+		hexDump("Payload", it->second.iValue.data(), it->second.iValue.size());
+		hexDump("Padding", it->second.iPadding.data(), it->second.iPadding.size());
+		printf("\n\n");
+	}
+#endif // _DO_HEXDUMP
+	return RES_OK;
+}
+
+result_t FPSHandler::verifySPCTLLVs()
+{
+	std::set< TLLV::TLLVTag > mandatoryTagList = cMandatoryTLLVTags;
+
+	for (auto it = iSPCTLLVs.begin(); it != iSPCTLLVs.end(); ++it) {
+		auto tagIt = mandatoryTagList.find(it->first);
+		if (tagIt != mandatoryTagList.end())
+			mandatoryTagList.erase(tagIt);
+	}
+
+	if (!mandatoryTagList.empty()) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Missing %lu mandatory SPC TLLVs", mandatoryTagList.size());
+		for (auto it = mandatoryTagList.begin(); it != mandatoryTagList.end(); ++it) {
+			Log::getInstance().printf(Log::LOG_DEBUG, "TAG 0x%llx", *it);
+		}
+		return RES_INVARG;
+	}
+
+	TLLV &arSeedTLLV = iSPCTLLVs[eARSeed];
+	if (arSeedTLLV.iValue.size() != cAESKeySize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Wrong AR Seed size: %lu", arSeedTLLV.iValue.size());
+		return RES_INVARG;
+	}
+
+	TLLV &returnRequest = iSPCTLLVs[eTagReturnRequest];
+
+	if (returnRequest.iValue.size() % sizeof(TLLV::TLLVTag) != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Incorrect TLLV return request size: %lu", returnRequest.iValue.size());
+		return RES_INVARG;
+	}
+
+	TLLV &r2 = iSPCTLLVs[eR2];
+
+	if (r2.iValue.size() != 21) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "R2 value should be 21 bytes long, current size: %lu", r2.iValue.size());
+		return RES_INVARG;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::verifyAppCertificate()
+{
+	// TODO
+	return RES_NOIMPL;
+}
+
+result_t FPSHandler::verifyFPSVersion()
+{
+	TLLV &verSupported = iSPCTLLVs[eProtocolVersionsSupported];
+	TLLV &verUsed = iSPCTLLVs[eProtocolVersionUsed];
+
+	if (verUsed.iValue.size() != sizeof(uint32)) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "incorrect Version Used TLLV size: %lu", verUsed.iValue.size());
+		return RES_INVARG;
+	}
+
+	uint32 clientVersion = ( uint32 ) verUsed.iValue[0] << 24;
+	clientVersion |= ( uint32 ) verUsed.iValue[1] << 16;
+	clientVersion |= ( uint32 ) verUsed.iValue[2] << 8;
+	clientVersion |= ( uint32 ) verUsed.iValue[3];
+
+	if (verSupported.iValue.size() < sizeof(uint32) || verSupported.iValue.size() % sizeof(uint32) != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "incorrect Versions Supported TLLV size: %lu", verSupported.iValue.size());
+		return RES_INVARG;
+	}
+
+	std::vector< uint32 > clientSupportedVersions;
+
+	for (unsigned ii = 0; ii < verSupported.iValue.size(); ii += sizeof(uint32)) {
+		uint32 ver = ( uint32 ) verSupported.iValue[ii] << 24;
+		ver |= ( uint32 ) verSupported.iValue[ii + 1] << 16;
+		ver |= ( uint32 ) verSupported.iValue[ii + 2] << 8;
+		ver |= ( uint32 ) verSupported.iValue[ii + 3];
+
+		clientSupportedVersions.push_back(ver);
+	}
+
+	result_t versionRes = RES_NOENT;
+
+	if (clientVersion == cFPSVersion) {
+		for (unsigned ii = 0; ii < clientSupportedVersions.size(); ++ii) {
+			if (clientSupportedVersions[ii] == cFPSVersion) {
+				versionRes = RES_OK;
+				break;
+			}
+		}
+	}
+
+	if (versionRes != RES_OK) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Unsupported FPS version %u", clientVersion);
+	}
+
+	return versionRes;
+}
+
+result_t FPSHandler::decryptSessionKey()
+{
+	TLLV &r2 = iSPCTLLVs[eR2];
+
+	result_t res = iSKR1.loadFromTLLV(iSPCTLLVs[eSKR1], r2.iValue);
+#ifdef _DO_HEXDUMP
+	hexDump("Session Key", iSKR1.iSessionKey.data(), iSKR1.iSessionKey.size());
+#endif //_DO_HEXDUMP
+	return res;
+}
+
+result_t FPSHandler::verifyCryptoBlockIntegrity()
+{
+	TLLV &integrityBlockSPC = iSPCTLLVs[eSKR1Integrity];
+
+	if (integrityBlockSPC.iValue.size() != cAESKeySize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Wrong size of SPC SK..R1 integrity block: %lu", integrityBlockSPC.iValue.size());
+		return RES_INVARG;
+	}
+
+	if (integrityBlockSPC.iValue != iSKR1.iIntegrityBytes) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Crypto block integrity bytes do not match SK..R1 integrity bytes from SPC");
+		return RES_INVARG;
+	}
+
+	return RES_OK;
+}
+
+result_t FPSHandler::getMediaPlaybackState(PlaybackState &state)
+{
+	auto it = iSPCTLLVs.find(eMediaPlaybackState);
+	if (it == iSPCTLLVs.end())
+		return RES_NOENT;
+
+	TLLV &mpsTLLV = it->second;
+
+	if (mpsTLLV.iValue.size() != cMediaPlaybackTLLVSize)
+		return RES_INVARG;
+
+	uint32 creationTime = (( uint32 ) mpsTLLV.iValue[0] << 24);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[1] << 16);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[2] << 8);
+	creationTime |= (( uint32 ) mpsTLLV.iValue[3]);
+
+	state.iCreationTime = creationTime;
+
+	uint32 playbackState = (( uint32 ) mpsTLLV.iValue[4] << 24);
+	playbackState = (( uint32 ) mpsTLLV.iValue[5] << 16);
+	playbackState = (( uint32 ) mpsTLLV.iValue[6] << 8);
+	playbackState = (( uint32 ) mpsTLLV.iValue[7]);
+
+	switch (playbackState) {
+		case eStateReady:
+			state.iPlaybackState = eStateReady;
+			break;
+		case eStatePlayingOrPaused:
+			state.iPlaybackState = eStatePlayingOrPaused;
+			break;
+		case eStateLeaseExpiring:
+			state.iPlaybackState = eStateLeaseExpiring;
+			break;
+		case eStateHalted:
+			state.iPlaybackState = eStateHalted;
+			break;
+		default:
+			return RES_INVARG;
+	}
+
+	uint64 sessionId = ( uint64 ) mpsTLLV.iValue[8] << 56;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[9] << 48;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[10] << 40;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[11] << 32;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[12] << 24;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[13] << 16;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[14] << 8;
+	sessionId |= ( uint64 ) mpsTLLV.iValue[15];
+
+	state.iSessionId = sessionId;
+
+	return RES_OK;
+}
+
+result_t FPSHandler::encryptContentKey(const std::vector< uint8 > &contentKey, const std::vector< uint8 > &initVec)
+{
+	if (contentKey.size() != cAESKeySize || initVec.size() != cAESKeySize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Wrong size of Content Key: %lu", contentKey.size());
+		return RES_ERROR;
+	}
+
+	iContentKeyTLLV.iTag = eEncryptedCK;
+	iContentKeyTLLV.iValue.clear();
+	iContentKeyTLLV.iValue.insert(iContentKeyTLLV.iValue.end(), initVec.begin(), initVec.end());
+
+	std::vector< uint8 > encryptedContentKey;
+	encryptedContentKey.resize(cAESKeySize);
+
+	symmetric_ECB ecb;
+
+	int cryptoRes = ecb_start(find_cipher("aes"), iSKR1.iSessionKey.data(), cAESKeySize, 0, &ecb);
+
+	if (cryptoRes != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error initializing AES EBC for CK encryption: %s", error_to_string(cryptoRes));
+		return RES_ERROR;
+	}
+
+	cryptoRes = ecb_encrypt(contentKey.data(), encryptedContentKey.data(), cAESKeySize, &ecb);
+
+	if (cryptoRes != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error encrypting Content Key: %s", error_to_string(cryptoRes));
+		ecb_done(&ecb);
+		return RES_ERROR;
+	}
+
+	ecb_done(&ecb);
+
+	iContentKeyTLLV.iValue.insert(iContentKeyTLLV.iValue.end(), encryptedContentKey.begin(), encryptedContentKey.end());
+
+	iContentKeyTLLV.fillPadding();
+#ifdef _DO_HEXDUMP
+	printf("-------------------------------\nContent Key TLLV\n");
+	hexDump("Payload", iContentKeyTLLV.iValue.data(), iContentKeyTLLV.iValue.size());
+	hexDump("Padding", iContentKeyTLLV.iPadding.data(), iContentKeyTLLV.iPadding.size());
+	printf("\n\n");
+#endif // _DO_HEXDUMP
+
+	return RES_OK;
+}
+
+result_t FPSHandler::setContentKeyExpiry(EContentKeyValidity validity, uint32 leaseSeconds, uint32 rentalSeconds)
+{
+	iCKValidity = validity;
+	iKeyExpiryTLLV.iTag = eCKDuration;
+
+	iKeyExpiryTLLV.iValue.clear();
+
+	iKeyExpiryTLLV.iValue.reserve(cContentKeyDurationBlockSize);
+
+	/// Push lease duration
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((leaseSeconds >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(leaseSeconds & 0xff);
+
+	/// Push rental duration
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((rentalSeconds >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(rentalSeconds & 0xff);
+
+	/// Push key type from key validity
+	uint32 keyType = ( uint32 ) validity;
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((keyType >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(keyType & 0xff);
+
+	/// Push 'reserved block'
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 24) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 16) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back((cContentKeyDurationReserved >> 8) & 0xff);
+	iKeyExpiryTLLV.iValue.push_back(cContentKeyDurationReserved & 0xff);
+
+	iKeyExpiryTLLV.fillPadding();
+
+	return RES_OK;
+}
+
+result_t FPSHandler::setHDCP(EHDCPState state)
+{
+	iHdcpState = state;
+
+	if (state == eHDCPNone)
+		return RES_OK;
+
+	iHdcpTLLV.iTag = eHDCPEnforcement;
+
+	uint64 value = cHDCPNotRequired;
+
+	if (state == eHDCPEnforced)
+		value = cHDCPType0Required;
+
+	iHdcpTLLV.iValue.reserve(sizeof(cHDCPNotRequired));
+
+	iHdcpTLLV.iValue.push_back((value >> 56) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 48) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 40) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 32) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 24) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 16) & 0xff);
+	iHdcpTLLV.iValue.push_back((value >> 8) & 0xff);
+	iHdcpTLLV.iValue.push_back(value & 0xff);
+
+	iHdcpTLLV.fillPadding();
+
+	return RES_OK;
+}
+
+result_t FPSHandler::fillR1TLLV()
+{
+	iR1TLLV.iTag = eR1;
+
+	iR1TLLV.iValue.clear();
+	iR1TLLV.iValue.insert(iR1TLLV.iValue.end(), iSKR1.iR1.begin(), iSKR1.iR1.end());
+
+	iR1TLLV.fillPadding();
+
+	return RES_OK;
+}
+
+result_t FPSHandler::assembleReturnTLLVs()
+{
+	TLLV &returnRequest = iSPCTLLVs[eTagReturnRequest];
+	iReturnTLLVs.clear();
+
+	/// Retrieve TLLVs from SPC and put their pointers in a vector
+	for (unsigned ii = 0; ii < returnRequest.iValue.size(); ii += sizeof(TLLV::TLLVTag)) {
+		TLLV::TLLVTag tag = ( uint64 ) returnRequest.iValue[ii] << 56;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 1] << 48;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 2] << 40;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 3] << 32;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 4] << 24;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 5] << 16;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 6] << 8;
+		tag |= ( uint64 ) returnRequest.iValue[ii + 7];
+
+		auto it = iSPCTLLVs.find(tag);
+		if (it == iSPCTLLVs.end()) {
+			Log::getInstance().printf(Log::LOG_DEBUG, "Error - tag 0x%llx from return request not found in SPC", tag);
+			return RES_INVARG;
+		}
+
+		iReturnTLLVs.push_back(&(it->second));
+	}
+
+	/// Shuffle the vector
+	std::random_shuffle(iReturnTLLVs.begin(), iReturnTLLVs.end());
+
+	Log::getInstance().printf(Log::LOG_DEBUG, "Number of return TLLVs: %lu", iReturnTLLVs.size());
+	unsigned returnTLLVSize = 0;
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		TLLV &retTLLV = *iReturnTLLVs[ii];
+		returnTLLVSize += retTLLV.serializeGetSize();
+	}
+	Log::getInstance().printf(Log::LOG_DEBUG, "Size of return TLLVs: %u", returnTLLVSize);
+
+	return RES_OK;
+}
+
+result_t FPSHandler::assembleCKCPayload()
+{
+	iCKCPayload.clear();
+
+	std::vector< TLLV * > iCKCSpecificTLLVs;
+
+	iCKCSpecificTLLVs.push_back(&iContentKeyTLLV);
+	if (iCKValidity != eValidNone)
+		iCKCSpecificTLLVs.push_back(&iKeyExpiryTLLV);
+	iCKCSpecificTLLVs.push_back(&iR1TLLV);
+	if (iHdcpState != eHDCPNone)
+		iCKCSpecificTLLVs.push_back(&iHdcpTLLV);
+
+	/// Shuffle CKC-specific TLLVs
+	std::random_shuffle(iCKCSpecificTLLVs.begin(), iCKCSpecificTLLVs.end());
+
+	/// Now calculate payload size and allocate
+	/// enough vector space for the payload TLLVs with padding
+
+	unsigned ckcPayloadSize = 0;
+
+	for (unsigned ii = 0; ii < iCKCSpecificTLLVs.size(); ++ii) {
+		ckcPayloadSize += iCKCSpecificTLLVs[ii]->serializeGetSize();
+	}
+
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		ckcPayloadSize += iReturnTLLVs[ii]->serializeGetSize();
+	}
+
+	printf("Total CKC payload size %u\n", ckcPayloadSize);
+
+	iCKCPayload.resize(ckcPayloadSize);
+
+	uint8 *ptr = iCKCPayload.data();
+	unsigned bytesLeft = ckcPayloadSize;
+
+	for (unsigned ii = 0; ii < iCKCSpecificTLLVs.size(); ++ii) {
+		TLLV &tllv = *iCKCSpecificTLLVs[ii];
+		unsigned tllvSize = tllv.serializeGetSize();
+		result_t res = tllv.serialize(ptr, bytesLeft);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_DEBUG, "TLLV Serialize error");
+			return RES_ERROR;
+		}
+		ptr += tllvSize;
+		bytesLeft -= tllvSize;
+	}
+
+	for (unsigned ii = 0; ii < iReturnTLLVs.size(); ++ii) {
+		TLLV &tllv = *iReturnTLLVs[ii];
+		unsigned tllvSize = tllv.serializeGetSize();
+		result_t res = tllv.serialize(ptr, bytesLeft);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_DEBUG, "TLLV Serialize error");
+			return RES_ERROR;
+		}
+		ptr += tllvSize;
+		bytesLeft -= tllvSize;
+	}
+#ifdef _DO_HEXDUMP
+	hexDump("CKC plain payload", iCKCPayload.data(), iCKCPayload.size());
+	printf("\n\n");
+#endif // _DO_HEXDUMP
+	return RES_OK;
+}
+
+result_t FPSHandler::getCKC(std::vector< uint8 > &ckc)
+{
+	if (iCKCPayload.size() == 0 || iCKCPayload.size() % 16 != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Bad CKC payload size %lu", iCKCPayload.size());
+		return RES_ERROR;
+	}
+
+	std::vector< uint8 > ckcEncryptedPayload;
+	ckcEncryptedPayload.resize(iCKCPayload.size());
+
+	/// Alloc vector for SHA1 of R1 block
+	std::vector< uint8 > arKeySha1;
+	arKeySha1.resize(cSHA1Size);
+
+	/// Compute SHA1 of R1
+	hash_state sha1Context;
+	sha1_init(&sha1Context);
+
+	sha1_process(&sha1Context, iSKR1.iR1.data(), iSKR1.iR1.size());
+
+	sha1_done(&sha1Context, arKeySha1.data());
+
+	/// First 16 bytes will serve as the AR key
+	/// Now initialize AES ECB to encrypt the AR Seed
+	/// with AR Key to get CKC encryption key (called AR)
+
+	TLLV &arSeed = iSPCTLLVs[eARSeed];
+
+	/// ckcEncryptionKey (AR) is the final key which is used to AES CBC
+	std::vector< uint8 > ckcEncryptionKey;
+	ckcEncryptionKey.resize(cAESKeySize);
+
+	symmetric_ECB ecb;
+
+	int res = ecb_start(find_cipher("aes"), arKeySha1.data(), cAESKeySize, 0, &ecb);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error initializing AES ECB: %s", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	res = ecb_encrypt(arSeed.iValue.data(), ckcEncryptionKey.data(), cAESKeySize, &ecb);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error encrypting AR seed: %s", error_to_string(res));
+		ecb_done(&ecb);
+		return RES_ERROR;
+	}
+
+	ecb_done(&ecb);
+
+	std::vector< uint8 > ckcEncInitVector;
+	ckcEncInitVector.reserve(cAESKeySize);
+
+	for (unsigned ii = 0; ii < cAESKeySize; ++ii) {
+		ckcEncInitVector.push_back(rand() % 256);
+	}
+
+	symmetric_CBC cbc;
+
+	res = cbc_start(find_cipher("aes"), ckcEncInitVector.data(), ckcEncryptionKey.data(), cAESKeySize, 0, &cbc);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error initializing AES CBC: %s", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	res = cbc_encrypt(iCKCPayload.data(), ckcEncryptedPayload.data(), ckcEncryptedPayload.size(), &cbc);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error encrypting CKC payload: %s", error_to_string(res));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	/// Start filling in CKC message contents
+
+	/// 4 byte version
+	ckc.push_back((cCKCVersion >> 24) & 0xff);
+	ckc.push_back((cCKCVersion >> 16) & 0xff);
+	ckc.push_back((cCKCVersion >> 8) & 0xff);
+	ckc.push_back(cCKCVersion & 0xff);
+
+	/// 4 byte 'reserved', for now fill with 0 (the spec doesn't say)
+	ckc.insert(ckc.end(), 4, 0);
+
+	/// CKC encryption Init Vector
+	ckc.insert(ckc.end(), ckcEncInitVector.begin(), ckcEncInitVector.end());
+
+	/// CKC encrypted payload size
+	uint32 ckcEncryptedPayloadSize = ckcEncryptedPayload.size();
+	ckc.push_back((ckcEncryptedPayloadSize >> 24) & 0xff);
+	ckc.push_back((ckcEncryptedPayloadSize >> 16) & 0xff);
+	ckc.push_back((ckcEncryptedPayloadSize >> 8) & 0xff);
+	ckc.push_back(ckcEncryptedPayloadSize & 0xff);
+
+	/// Finally, CKC encrypted payload
+	ckc.insert(ckc.end(), ckcEncryptedPayload.begin(), ckcEncryptedPayload.end());
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: server/FPSHandler.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_FPSHANDLER_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_FPSHANDLER_H__
+
+#include "SKR1.h"
+#include "SPC.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class FPSHandler
+{
+public:
+	static const unsigned cAESKeySize = 16;
+
+	enum EContentKeyValidity
+	{
+		eValidNone = 0,
+		ePersistentIndefinite = 0x3df2d9fb,
+		ePersistentDuration = 0x18f06048,
+		eValidLeaseOnly = 0x1a4bde7e,
+		eValidRentalOnly = 0x3dfe45a0,
+		eValidLeaseRental = 0x27b59bde,
+	};
+
+	enum EPlaybackState
+	{
+		eStateReady = 0xf4dee5a2,
+		eStatePlayingOrPaused = 0xa5d6739e,
+		eStateLeaseExpiring = 0x4f834330,
+		eStateHalted = 0x5991bf20
+	};
+
+	enum EHDCPState
+	{
+		eHDCPNone = -1,
+		eHDCPDisabled = 0,
+		eHDCPEnforced = 1
+	};
+
+	class PlaybackState
+	{
+	public:
+		EPlaybackState iPlaybackState;
+		uint32 iCreationTime;
+		uint64 iSessionId;
+	};
+
+	FPSHandler(const std::vector< uint8 > &rsaServerKeyDer, const std::vector< uint8 > &appSecretKey);
+	result_t putSPCMessage(const uint8 *data, size_t size);
+	result_t parseSPCPayload();
+	result_t verifySPCTLLVs();
+	result_t verifyAppCertificate();
+	result_t verifyFPSVersion();
+	result_t decryptSessionKey();
+	result_t verifyCryptoBlockIntegrity();
+	result_t getMediaPlaybackState(PlaybackState &state);
+	result_t encryptContentKey(const std::vector< uint8 > &contentKey, const std::vector< uint8 > &initVec);
+	result_t setContentKeyExpiry(EContentKeyValidity validity, uint32 leaseSeconds, uint32 rentalSeconds);
+	result_t setHDCP(EHDCPState state);
+	result_t fillR1TLLV();
+	result_t assembleReturnTLLVs();
+	result_t assembleCKCPayload();
+	result_t getCKC(std::vector< uint8 > &ckc);
+
+private:
+	const std::vector< uint8 > iRsaServerKeyDer;
+	const std::vector< uint8 > iAppSecretKey;
+	SPC iSPC;
+	std::map< TLLV::TLLVTag, TLLV > iSPCTLLVs;
+	SKR1 iSKR1;
+	TLLV iContentKeyTLLV;
+	EContentKeyValidity iCKValidity;
+	TLLV iKeyExpiryTLLV;
+	TLLV iR1TLLV;
+	EHDCPState iHdcpState;
+	TLLV iHdcpTLLV;
+	std::vector< TLLV * > iReturnTLLVs;
+	std::vector< uint8 > iCKCPayload;
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_FPSHANDLER_H__
+
+================
+File: server/hexdump.h
+================
+#ifndef __RG_FAIRPLAY_SERVER_HEXDUMP_H__
+#define __RG_FAIRPLAY_SERVER_HEXDUMP_H__
+
+#ifdef _DO_HEXDUMP
+static void hexDump(const char *desc, const void *addr, int len)
+{
+	int i;
+	unsigned char buff[17];
+	unsigned char *pc = ( unsigned char * ) addr;
+
+	// Output description if given.
+	if (desc != NULL)
+		printf("%s:\n", desc);
+
+	if (len == 0) {
+		printf("  ZERO LENGTH\n");
+		return;
+	}
+	if (len < 0) {
+		printf("  NEGATIVE LENGTH: %i\n", len);
+		return;
+	}
+
+	// Process every byte in the data.
+	for (i = 0; i < len; i++) {
+		// Multiple of 16 means new line (with line offset).
+
+		if ((i % 16) == 0) {
+			// Just don't print ASCII for the zeroth line.
+			if (i != 0)
+				printf("  %s\n", buff);
+
+			// Output the offset.
+			printf("  %04x ", i);
+		}
+
+		// Now the hex code for the specific character.
+		printf(" %02x", pc[i]);
+
+		// And store a printable ASCII character for later.
+		if ((pc[i] < 0x20) || (pc[i] > 0x7e))
+			buff[i % 16] = '.';
+		else
+			buff[i % 16] = pc[i];
+		buff[(i % 16) + 1] = '\0';
+	}
+
+	// Pad out last line if not exactly 16 characters.
+	while ((i % 16) != 0) {
+		printf("   ");
+		i++;
+	}
+
+	// And print the final ASCII bit.
+	printf("  %s\n", buff);
+}
+#endif
+
+#endif // __RG_FAIRPLAY_SERVER_HEXDUMP_H__
+
+================
+File: server/main.cpp
+================
+#include "ServerContext.h"
+#include "Version.h"
+#include <arpa/inet.h>
+#include <fcntl.h>
+#include <fstream>
+#include <grp.h>
+#include <iostream>
+#include <mutex>
+#include <pwd.h>
+#include <rg/core/Log.h>
+#include <signal.h>
+#include <sys/prctl.h>
+#include <sys/wait.h>
+#include <vector>
+
+using namespace std;
+using namespace rg;
+
+#define DEFAULT_CFG_PATH "/opt/atds/etc/fplicenseserver.conf"
+#define LOCK_FILE "/tmp/fplicenseserver.lock"
+#define PID_FILE "/var/run/fplicenseserver.pid"
+
+static const char *cVersionArg = "--version";
+static const char *cHelpArg = "--help";
+static const char *cCfgArg = "--cfg";
+static const char *cStandaloneArg = "--standalone";
+static const char *cNoForkArg = "--nofork";
+static const char *cAddrArg = "--addr";
+static const char *cPortArg = "--port";
+
+struct CmdLineConfig
+{
+	std::string iConfigPath;
+	bool iStandalone;
+	bool iNoFork;
+	std::string iBindAddr;
+	int iBindPort;
+};
+
+static CmdLineConfig sCmdLineCfg;
+
+static ServerContext *sSrvCtx = NULL;
+
+static pid_t sChildPid = 0;
+
+static uid_t sChildUid = 0;
+
+static gid_t sChildGid = 0;
+
+static std::string sLogPath;
+static std::string sAccessLogPath;
+
+static std::mutex sMutex;
+
+/*
+static void setChildPid(pid_t pid)
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	sChildPid = pid;
+}
+*/
+
+static pid_t getChildPid()
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	return sChildPid;
+}
+
+static void setChildUid(uid_t uid)
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	sChildUid = uid;
+}
+
+static uid_t getChildUid()
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	return sChildUid;
+}
+
+static void setChildGid(uid_t gid)
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	sChildGid = gid;
+}
+
+static uid_t getChildGid()
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	return sChildGid;
+}
+
+static void setLogPath(const std::string &logPath)
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	sLogPath = logPath;
+}
+
+static std::string getLogPath()
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	return sLogPath;
+}
+
+static void setAccessLogPath(const std::string &logPath)
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	sAccessLogPath = logPath;
+}
+
+static std::string getAccessLogPath()
+{
+	std::lock_guard< std::mutex > lck(sMutex);
+	return sAccessLogPath;
+}
+
+static void printUsage()
+{
+	printf(
+		"Usage:\n"
+		"fplicenseserver [args]\n"
+		"\n"
+		"Args may be:\n"
+		"--version          Print current version\n"
+		"--help             Print this help\n"
+		"--cfg <path>       Provide configuration file path (default: " DEFAULT_CFG_PATH
+		")\n"
+		"--standalone       Do not daemonize\n"
+		"--nofork           Do not fork parent supervisor process\n"
+		"--addr             Bind to a specific address (0.0.0.0 by default)\n"
+		"--port             Listen on a specific port (8088 by default)\n"
+
+	);
+}
+
+static result_t parseCmdLine(int argc, char *argv[], CmdLineConfig &cfg)
+{
+	result_t res = RES_OK;
+
+	cfg.iConfigPath = DEFAULT_CFG_PATH;
+	cfg.iStandalone = false;
+
+	if (argc == 1) {
+		printUsage();
+		return RES_ABORT;
+	}
+
+	for (int ii = 1; ii < argc; ++ii) {
+		std::string arg = argv[ii];
+
+		if (arg == cVersionArg) {
+			// TODO: print version
+			return RES_ABORT;
+		} else if (arg == cHelpArg) {
+			printUsage();
+			return RES_ABORT;
+		} else if (arg == cCfgArg) {
+			++ii;
+			if (ii >= argc) {
+				fprintf(stderr, "Too few arguments, try --help\n");
+				return RES_INVARG;
+			}
+			cfg.iConfigPath = argv[ii];
+		} else if (arg == cPortArg) {
+			++ii;
+			if (ii >= argc) {
+				fprintf(stderr, "Too few arguments, try --help\n");
+				return RES_INVARG;
+			}
+			cfg.iBindPort = atoi(argv[ii]);
+		} else if (arg == cAddrArg) {
+			++ii;
+			if (ii >= argc) {
+				fprintf(stderr, "Too few arguments, try --help\n");
+				return RES_INVARG;
+			}
+			cfg.iBindAddr = argv[ii];
+		} else if (arg == cStandaloneArg) {
+			cfg.iStandalone = true;
+		} else if (arg == cNoForkArg) {
+			cfg.iNoFork = true;
+		} else {
+			fprintf(stderr, "Unrecognized argument %s , try --help for usage\n", argv[ii]);
+			return RES_INVARG;
+		}
+	}
+	return res;
+}
+
+result_t getBoundSocket(const std::string &addr, int port, int &sockFd)
+{
+	struct in_addr theAddr;
+	if (inet_pton(AF_INET, addr.c_str(), &theAddr) != 1) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Invalid IP address format for BindAddr %s", addr.c_str());
+		return RES_INVARG;
+	}
+	uint16 thePort = htons(port);
+
+	int sock = socket(AF_INET, SOCK_STREAM, 0);
+
+	// Set reuseaddr in case server fails
+	int flag = 1;
+	setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &flag, sizeof(flag));
+
+	// Set nonblocking for libmicrohttpd
+	fcntl(sock, F_SETFL, fcntl(sock, F_GETFL, 0) | O_NONBLOCK);
+
+	struct sockaddr_in bindAddr;
+	bindAddr.sin_addr = theAddr;
+	bindAddr.sin_port = thePort;
+	bindAddr.sin_family = AF_INET;
+	if (bind(sock, ( struct sockaddr * ) &bindAddr, sizeof(bindAddr)) < 0) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Could not bind socket on %s:%d", addr.c_str(), port);
+		close(sock);
+		return RES_ERROR;
+	}
+
+	if (listen(sock, SOMAXCONN) != 0) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Could not listen on socket bound to %s:%d", addr.c_str(), port);
+		close(sock);
+		return RES_ERROR;
+	}
+
+	sockFd = sock;
+
+	return RES_OK;
+}
+
+static void sighupHandlerSuper(int sig)
+{
+	if (sChildPid != 0) {
+		// If supervising child process, send the signal to child
+		kill(sChildPid, SIGHUP);
+	}
+}
+
+static void sighupHandler(int sig)
+{
+	Log::getInstance().printf(Log::LOG_WARNING, "Reloading server config");
+	if (sSrvCtx != NULL) {
+		ConfigXML xmlConf;
+		result_t res = xmlConf.open(sCmdLineCfg.iConfigPath);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Could not load new config file %s (%d)", sCmdLineCfg.iConfigPath.c_str(), res);
+			return;
+		}
+		ServerConfig newCfg;
+		res = newCfg.load(xmlConf);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Could not load new config file %s (%d)", sCmdLineCfg.iConfigPath.c_str(), res);
+			return;
+		}
+		Log::getInstance().updateCfg(xmlConf);
+		sSrvCtx->reload(newCfg);
+	}
+}
+
+static result_t handleLockFile()
+{
+	// open a lockfile
+	int lockfd = open(LOCK_FILE, O_RDWR | O_CREAT, 0640);
+	if (lockfd < 0) {
+		fprintf(stderr, "Could not open lock file\n");
+		return RES_IOERR;
+	}
+	if (lockf(lockfd, F_TLOCK, 0) < 0) {
+		fprintf(stderr, "An instance of the server is already running, exiting\n");
+		return RES_BUSY;
+	}
+	return RES_OK;
+}
+
+static result_t touchPidFile(pid_t pid)
+{
+	result_t res = RES_ERROR;
+	FILE *fp = fopen(PID_FILE, "w");
+	if (fp != NULL) {
+		if (fprintf(fp, "%d", pid) > 0)
+			res = RES_OK;
+		fclose(fp);
+	}
+	return res;
+}
+
+static result_t daemonize()
+{
+
+	int pid = fork();
+	if (pid < 0)
+		return RES_ERROR; // fork failed
+	if (pid > 0) {
+		touchPidFile(pid);
+		exit(0); // still in parent process, so quit
+	}
+
+	// in child process, obtain new session and process group at the same time
+	setsid();
+
+	int devnull = open("/dev/null", O_RDWR);
+
+	// close stdin stdout and stderr which are connected to current terminal
+	close(0);
+	close(1);
+	close(2);
+
+	// attach stdin stdout and stderr to /dev/null
+	// by dup-ing the devnull descriptor
+	dup2(devnull, 0);
+	dup2(devnull, 1);
+	dup2(devnull, 2);
+
+	// get rid of devnull
+	close(devnull);
+
+	return RES_OK;
+}
+
+static void touchFile(const std::string &filename, uid_t uid, gid_t gid)
+{
+	static const int fileMode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH;
+	int fd = open(filename.c_str(), O_WRONLY | O_CREAT | O_NDELAY | O_APPEND, fileMode);
+	if (fd < 0)
+		return;
+
+	close(fd);
+	if (uid != 0) {
+		chown(filename.c_str(), uid, gid);
+	}
+}
+
+static void touchLogFiles()
+{
+	std::string logFilePath = getLogPath();
+	if (!logFilePath.empty()) {
+		touchFile(logFilePath, getChildUid(), getChildGid());
+	}
+	std::string accessLogFilePath = getAccessLogPath();
+	if (!accessLogFilePath.empty()) {
+		touchFile(accessLogFilePath, getChildUid(), getChildGid());
+	}
+}
+
+static void watchChild()
+{
+	int status = 0;
+	pid_t res = 0;
+
+	pid_t childPid = getChildPid();
+	res = waitpid(childPid, &status, 0);
+	if (WIFSIGNALED(status)) {
+		if (WTERMSIG(status) != SIGTERM)
+			Log::getInstance().printf(Log::LOG_ERROR, "Child %d died after receiving a signal %d", res, WTERMSIG(status));
+
+	} else if (WIFEXITED(status)) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Child %d exited with status %d", res, WEXITSTATUS(status));
+		if (WEXITSTATUS(status) == 0) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Child %d exited normally, supervisor exiting", res);
+			exit(0);
+		}
+	}
+}
+
+static void supervise()
+{
+	do {
+		int pid = fork();
+		if (pid > 0) {
+			sChildPid = pid;
+			watchChild();
+		} else {
+			return;
+		}
+
+	} while (1);
+}
+
+static result_t getChildUidGid(const ServerConfig &cfg, uid_t &uid, gid_t &gid)
+{
+	if (cfg.iProcessUser.empty())
+		return RES_OK;
+
+	uid = 0;
+	gid = 0;
+
+	struct passwd *pwd = getpwnam(cfg.iProcessUser.c_str());
+	if (pwd == NULL) {
+		Log::getInstance().printf(Log::LOG_ERROR, "getpwnam failed (check permissions) or no user %s exists in the system", cfg.iProcessUser.c_str());
+		return RES_NOENT;
+	}
+	uid = pwd->pw_uid;
+	gid = pwd->pw_gid;
+
+	if (!cfg.iProcessGroup.empty()) {
+		struct group *grp = getgrnam(cfg.iProcessGroup.c_str());
+
+		if (grp == NULL) {
+			Log::getInstance().printf(Log::LOG_ERROR, "getgrnam failed (check permissions) or no group %s exists in the system", cfg.iProcessGroup.c_str());
+			return RES_NOENT;
+		}
+
+		gid = grp->gr_gid;
+	}
+	return RES_OK;
+}
+
+static result_t dropPrivileges()
+{
+	int setRes = 0;
+
+	gid_t gid = 0;
+	uid_t uid = 0;
+
+	if ((gid = getChildGid()) != 0) {
+		setRes = setgid(gid);
+		if (setRes != 0) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error setting uid: %d, gid: %d", uid, gid);
+			return RES_NOPERM;
+		}
+		Log::getInstance().printf(Log::LOG_INFO, "Set process gid to%d", gid);
+		getgrgid(gid);
+	}
+
+	if ((uid = getChildUid()) != 0) {
+		setRes = setuid(uid);
+		if (setRes != 0) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error setting uid: %d, gid: %d", uid, gid);
+			return RES_NOPERM;
+		}
+		Log::getInstance().printf(Log::LOG_INFO, "Set process uid to%d", uid);
+		getpwuid(uid); // Flush user info from static buffers
+	}
+
+	return RES_OK;
+}
+
+int main(int argc, char *argv[])
+{
+	fprintf(stderr, "Fair Play License Server version %s\n", versionString().c_str());
+	result_t res = RES_OK;
+	rg::core::log::registerStderr();
+
+	res = handleLockFile();
+
+	if (res != RES_OK) {
+		LG_ERR("%s", "failed to lock")
+		return 1;
+	}
+	LG_TRC("%s", "ok")
+
+	result_t cmdLineRes = parseCmdLine(argc, argv, sCmdLineCfg);
+
+	if (cmdLineRes == RES_ABORT) {
+		return 0;
+	} else if (cmdLineRes != RES_OK)
+		return 1;
+
+	ConfigXML xmlConf;
+	res = xmlConf.open(sCmdLineCfg.iConfigPath);
+	if (res != RES_OK) {
+		fprintf(stderr, "Error opening config file %s - res %d\n", sCmdLineCfg.iConfigPath.c_str(), res);
+		return 1;
+	}
+
+	ServerConfig conf;
+	res = conf.load(xmlConf);
+
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "There was an error in server configuration, exiting");
+		return 1;
+	}
+
+	setLogPath(conf.iLogFileName);
+	setAccessLogPath(conf.iAccessLogFileName);
+
+	uid_t uid = 0;
+	gid_t gid = 0;
+
+	getChildUidGid(conf, uid, gid);
+
+	setChildUid(uid);
+	setChildGid(gid);
+
+	touchLogFiles();
+
+	res = Log::getInstance().updateCfg(xmlConf);
+
+	if (res != RES_OK) {
+		fprintf(stderr, "Could not initialize logger, check config file - res %d\n", res);
+		return 1;
+	}
+
+	std::string bindAddr = "0.0.0.0";
+	int bindPort = 8088;
+
+	if (!sCmdLineCfg.iBindAddr.empty())
+		bindAddr = sCmdLineCfg.iBindAddr;
+	else
+		Log::getInstance().printf(Log::LOG_WARNING, "Bind address missing from command line, using default %s", bindAddr.c_str());
+
+	if (sCmdLineCfg.iBindPort > 0)
+		bindPort = ( uint16 ) sCmdLineCfg.iBindPort;
+	else
+		Log::getInstance().printf(Log::LOG_WARNING, "Listen port missing from command line, using default %d", bindPort);
+
+	int listeningSocket = -1;
+
+	res = getBoundSocket(bindAddr, bindPort, listeningSocket);
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Could not create a listening socket for the server (%d)", res);
+		return 1;
+	}
+
+	if (!sCmdLineCfg.iStandalone) {
+
+		res = daemonize();
+
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error launching server id daemon mode (%d)", res);
+			return 1;
+		}
+	}
+
+	if (!sCmdLineCfg.iNoFork) {
+		if (signal(SIGHUP, sighupHandlerSuper) == SIG_ERR) {
+			Log::getInstance().printf(Log::LOG_WARNING, "Setting up SIGHUP handler failed");
+		}
+		supervise();
+	}
+
+	if (!sCmdLineCfg.iStandalone) {
+
+		res = dropPrivileges();
+
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error dropping privileges (%d)", res);
+			return 0;
+		}
+	}
+
+	ServerContext ctx(listeningSocket);
+
+	Log::getInstance().printf(Log::LOG_INFO, "Fair Play License Server version %s\n", versionString().c_str());
+	Log::getInstance().printf(Log::LOG_INFO, "Starting HTTP server");
+	res = ctx.start(conf);
+
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error starting server context (%d)", res);
+		return 0;
+	}
+
+	sSrvCtx = &ctx;
+
+	if (signal(SIGHUP, sighupHandler) == SIG_ERR) {
+		Log::getInstance().printf(Log::LOG_WARNING, "Setting up SIGHUP handler failed");
+	}
+
+	/*if (signal(SIGTERM, sigtermHandler) == SIG_ERR) {
+		Log::getInstance().printf(Log::LOG_WARNING, "Setting up SIGTERM handler failed");
+	}*/
+
+	/*if (signal(SIGINT, sigtermHandler) == SIG_ERR) {
+		Log::getInstance().printf(Log::LOG_WARNING, "Setting up SIGINT handler failed");
+	}*/
+
+	ctx.wait();
+	Log::getInstance().printf(Log::LOG_ERROR, "Stopping license server");
+
+	return 0;
+}
+
+================
+File: server/RandInit.cpp
+================
+#include <cstdio>
+#include <cstdlib>
+#include <time.h>
+
+static int randInit()
+{
+	struct timespec tp_mono;
+	struct timespec tp_wall;
+	clock_gettime(CLOCK_MONOTONIC, &tp_mono);
+	clock_gettime(CLOCK_REALTIME, &tp_wall);
+
+	time_t seed = tp_mono.tv_sec ^ tp_wall.tv_sec ^ tp_mono.tv_nsec ^ tp_wall.tv_nsec;
+
+	srand(seed);
+	return 0;
+}
+
+static int randDummy = randInit();
+
+================
+File: server/ServerConfig.cpp
+================
+#include "ServerConfig.h"
+#include "Utils.h"
+
+namespace rg {
+
+static const char *cHttpsKeyPemFileStr = "HttpsKeyPemFile";
+static const char *cHttpsCertPemFileStr = "HttpsCertPemFile";
+static const char *cAuthCredentialsFileStr = "AuthCredentialsFile";
+static const char *cProcessUserStr = "ProcessUser";
+static const char *cProcessGroupStr = "ProcessGroup";
+static const char *cPrimaryLogStr = "LogFileName0";
+static const char *cAccessLogStr = "AccessLog";
+
+result_t ServerConfig::load(Config &cfg)
+{
+	iHttpsKeyPem.clear();
+	iHttpsCertPem.clear();
+	iAuthCredentialsPath.clear();
+
+	std::string httpsKeyPath;
+	std::string httpsCertPath;
+
+	result_t res = cfg.getString(cHttpsKeyPemFileStr, httpsKeyPath);
+
+	if (res == RES_OK) {
+		res = cfg.getString(cHttpsCertPemFileStr, httpsCertPath);
+		if (res != RES_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "TLS key path found but no certificate path");
+			return RES_INVARG;
+		}
+
+		res = readFileToString(httpsKeyPath, iHttpsKeyPem);
+		if (res != RES_OK || iHttpsKeyPem.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error reading TLS server key");
+			return RES_INVARG;
+		}
+		res = readFileToString(httpsCertPath, iHttpsCertPem);
+		if (res != RES_OK || iHttpsCertPem.empty()) {
+			Log::getInstance().printf(Log::LOG_ERROR, "Error reading TLS server certificate");
+			return RES_INVARG;
+		}
+	} else {
+		Log::getInstance().printf(Log::LOG_WARNING, "No SSL/TLS certificate/key selected, server is plain HTTP");
+	}
+
+	res = cfg.getString(cAuthCredentialsFileStr, iAuthCredentialsPath);
+
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "No Basic Auth credentials file provided");
+		return RES_INVARG;
+	}
+
+	cfg.getString(cProcessUserStr, iProcessUser);
+	cfg.getString(cProcessGroupStr, iProcessGroup);
+
+	if (iProcessUser.empty()) {
+		Log::getInstance().printf(Log::LOG_WARNING, "ProcessUser not set, the server will run with current user level");
+	}
+
+	cfg.getString(cPrimaryLogStr, iLogFileName);
+	cfg.getString(cAccessLogStr, iAccessLogFileName);
+
+	return res;
+}
+
+}; // end namespace rg
+
+================
+File: server/ServerConfig.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_SERVERCONFIG_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_SERVERCONFIG_H__
+
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class ServerConfig
+{
+public:
+	result_t load(Config &cfg);
+
+	std::string iHttpsKeyPem;
+	std::string iHttpsCertPem;
+
+	std::string iAuthCredentialsPath;
+
+	std::string iProcessUser;
+	std::string iProcessGroup;
+
+	std::string iLogFileName;
+	std::string iAccessLogFileName;
+};
+
+} // end namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_SERVERCONFIG_H__
+
+================
+File: server/ServerContext.cpp
+================
+#include "ServerContext.h"
+#include "CredentialsStore.h"
+#include <fcntl.h>
+#include <thread>
+
+namespace rg {
+
+ServerContext::ServerContext(int sockFd)
+	: iSockFd(sockFd)
+	, iRunState(eNotRunning)
+	, iReload(false)
+{
+}
+
+result_t ServerContext::startServer(ServerConfig &cfg)
+{
+	std::shared_ptr< CredentialsStore > creds = std::make_shared< CredentialsStore >();
+	result_t res = creds->open(cfg.iAuthCredentialsPath);
+
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error opening credentials file %s (%d)", cfg.iAuthCredentialsPath.c_str(), res);
+		return res;
+	}
+
+	iServer.setAuthorizedCredentials(creds);
+	creds.reset(); // No longer need to hold reference
+
+	iServer.setTLS(cfg.iHttpsKeyPem, cfg.iHttpsCertPem);
+
+	iServer.setAccesLogFilename(cfg.iAccessLogFileName);
+
+	res = iServer.open(iSockFd);
+
+	if (res != RES_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error opening HTTP server (%d)", res);
+		return res;
+	}
+
+	return RES_OK;
+}
+
+result_t ServerContext::start(ServerConfig &cfg)
+{
+	std::unique_lock< std::mutex > lck(iMutex);
+
+	if (iRunState != eNotRunning) {
+		return RES_BUSY;
+	}
+
+	iServerConfig = cfg;
+
+	result_t res = startServer(cfg);
+	if (res != RES_OK) {
+		return res;
+	}
+
+	std::thread thr(threadFn, this);
+	thr.detach();
+
+	iRunState = eRunning;
+
+	return RES_OK;
+}
+
+result_t ServerContext::stop()
+{
+	std::unique_lock< std::mutex > lck(iMutex);
+
+	if (iRunState != eRunning) {
+		return RES_NOTSTARTED;
+	}
+
+	while (iRunState != eNotRunning) {
+		iRunState = eStopping;
+		iCond.notify_all();
+		iCond.wait(lck);
+	}
+
+	iServer.close();
+
+	return RES_OK;
+}
+
+result_t ServerContext::reload(ServerConfig &cfg)
+{
+	std::unique_lock< std::mutex > lck(iMutex);
+
+	if (iRunState != eRunning)
+		return RES_NOTSTARTED;
+
+	iReload = true;
+	iServerConfig = cfg;
+
+	iCond.notify_all();
+
+	return RES_OK;
+}
+
+void ServerContext::threadFn(ServerContext *ctx)
+{
+	ctx->doRun();
+}
+
+void ServerContext::doRun()
+{
+	std::unique_lock< std::mutex > lck(iMutex);
+
+	while (iRunState == eRunning) {
+
+		if (iReload) {
+			iReload = false;
+			iServer.close();
+			result_t res = startServer(iServerConfig);
+			if (res != RES_OK) {
+				Log::getInstance().printf(Log::LOG_ERROR, "Error reloading server (%d)", res);
+			}
+		}
+		iCond.wait(lck);
+	}
+
+	iRunState = eNotRunning;
+	iCond.notify_all();
+}
+
+void ServerContext::wait()
+{
+	std::unique_lock< std::mutex > lck(iMutex);
+
+	while (iRunState != eNotRunning)
+		iCond.wait(lck);
+}
+
+} // namespace rg
+
+================
+File: server/ServerContext.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_SERVERCONTEXT_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_SERVERCONTEXT_H__
+
+#include "FPLicenseServer.h"
+#include "ServerConfig.h"
+#include <condition_variable>
+#include <mutex>
+
+namespace rg {
+
+class ServerContext
+{
+public:
+	ServerContext(int sockFd);
+
+	result_t start(ServerConfig &cfg);
+	result_t stop();
+	result_t reload(ServerConfig &cfg);
+	void wait();
+
+private:
+	enum RunState
+	{
+		eNotRunning,
+		eRunning,
+		eStopping
+	};
+	int iSockFd;
+	FPLicenseServer iServer;
+	RunState iRunState;
+	bool iReload;
+	std::mutex iMutex;
+	std::condition_variable iCond;
+	ServerConfig iServerConfig;
+
+	static void threadFn(ServerContext *ctx);
+	void doRun();
+	result_t startServer(ServerConfig &cfg);
+	result_t handleConnection();
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_SERVERCONTEXT_H__
+
+================
+File: server/SKR1.cpp
+================
+#include "SKR1.h"
+#include <tomcrypt.h>
+
+namespace rg {
+
+SKR1::SKR1(const std::vector<uint8>& appSecretKey, DFunction dFunction)
+	: iASK(appSecretKey)
+	, iDFunc(dFunction)
+{
+
+}
+
+#ifdef _TEST_CREDENTIALS
+
+const std::vector<uint8> cDevelopmentDASK =
+	{0xd8, 0x7c, 0xe7, 0xa2, 0x60, 0x81, 0xde, 0x2e, 0x8e, 0xb8, 0xac, 0xef, 0x3a, 0x6d, 0xc1, 0x79};
+
+#endif
+
+result_t SKR1::loadFromTLLV(const TLLV& tllv, const std::vector<uint8>& randomBlock)
+{
+  if (tllv.iTag != eSKR1) {
+  	return RES_INVARG;
+	}
+
+	if (tllv.iValue.size() != cSKR1PayloadSize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Incorrect SK..R1 size: %lu, should be %u", tllv.iValue.size(), cSKR1PayloadSize);
+		return RES_INVARG;
+	}
+
+    std::vector<uint8> initVec;
+    initVec.insert(initVec.end(), tllv.iValue.begin(), tllv.iValue.begin() + cAESKeySize);
+
+	std::vector<uint8> dask;
+	dask.resize(cAESKeySize);
+
+	if (iDFunc == NULL) {
+#ifdef _TEST_CREDENTIALS
+		printf("Warning: using hardcoded development DASK\n");
+		dask = cDevelopmentDASK;
+#else
+		Log::getInstance().printf(Log::LOG_ERROR, "No key derivation function provided for computing DASK");
+		return RES_ERROR;
+#endif
+	} else {
+		int res = iDFunc(iASK.data(), iASK.size(), randomBlock.data(), randomBlock.size(), dask.data());
+		if (res != DFUNCTION_OK) {
+			Log::getInstance().printf(Log::LOG_ERROR, "D Function invocation error");
+			return RES_ERROR;
+		}
+	}
+
+	symmetric_CBC cbc;
+
+	int cryptoRes = cbc_start(find_cipher("aes"), initVec.data(), dask.data(), cAESKeySize, 0, &cbc);
+
+	if (cryptoRes != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error initializing AES CBC: %s", error_to_string(cryptoRes));
+		return RES_ERROR;
+	}
+
+	std::vector<uint8> cryptoBlock;
+	cryptoBlock.resize(cSKR1CryptoBlockSize);
+
+	cryptoRes = cbc_decrypt(tllv.iValue.data() + cAESKeySize, cryptoBlock.data(), cSKR1CryptoBlockSize, &cbc);
+
+	if (cryptoRes != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error decrypting SK..R1 payload: %s", error_to_string(cryptoRes));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	// Extract cryptographic data from decrypted SK..R1 payload
+	auto it = cryptoBlock.begin();
+	iSessionKey.clear();
+	iSessionKey.insert(iSessionKey.end(), it, it + cAESKeySize);
+	it += cAESKeySize;
+	iDevId.clear();
+	iDevId.insert(iDevId.end(), it, it + cSKR1UniqueIdSize);
+	it += cSKR1UniqueIdSize;
+    iR1.clear();
+    iR1.insert(iR1.end(), it, it + cR1BlockSize);
+    it += cR1BlockSize;
+    iIntegrityBytes.clear();
+    iIntegrityBytes.insert(iIntegrityBytes.end(), it, it + cSKR1IntegritySize);
+
+    return RES_OK;
+}
+
+};
+
+================
+File: server/SKR1.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_SKR1_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_SKR1_H__
+
+#include "DFunction.h"
+#include "TLLV.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class SKR1
+{
+public:
+	static const unsigned cSKR1PayloadSize = 112;
+	static const unsigned cAESKeySize = 16;
+	static const unsigned cSKR1CryptoBlockSize = 96;
+	static const unsigned cSKR1UniqueIdSize = 20;
+	static const unsigned cR1BlockSize = 44;
+	static const unsigned cSKR1IntegritySize = 16;
+
+	SKR1(const std::vector< uint8 > &appSecretKey, DFunction dFunction);
+	result_t loadFromTLLV(const TLLV &tllv, const std::vector< uint8 > &randomBlock);
+
+	std::vector< uint8 > iASK;
+	DFunction iDFunc;
+	std::vector< uint8 > iSessionKey;
+	std::vector< uint8 > iDevId;
+	std::vector< uint8 > iR1;
+	std::vector< uint8 > iIntegrityBytes;
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_SKR1_H__
+
+================
+File: server/SPC.cpp
+================
+#include "SPC.h"
+#include <inttypes.h>
+#include <tomcrypt.h>
+
+namespace rg {
+
+static const unsigned cMinSPCSize = 192;
+static const uint8 cVersionTag[] = {0x00, 0x00, 0x00, 0x01};
+
+static const unsigned cAESKeySize = 16;
+static const unsigned cAESEncryptedKeySize = 128;
+
+result_t SPC::load(const std::vector< uint8 > &rsaPrivKey, const uint8 *buf, size_t size)
+{
+	if (size <= cMinSPCSize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "SPC message too short: %lu", size);
+		return RES_INVARG;
+	}
+	const uint8 *ptr = buf;
+	unsigned left = size;
+
+	if (memcmp(ptr, cVersionTag, sizeof(cVersionTag)) != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Invalid SPC version descriptor: 0x%02x%02x%02x%02x ", ptr[0], ptr[1], ptr[2], ptr[3]);
+		return RES_INVARG;
+	}
+	ptr += sizeof(cVersionTag) + 4 /* reserved bytes */;
+	left -= sizeof(cVersionTag) + 4 /* reserved bytes */;
+
+	const uint8 *AESInitVector = ptr;
+
+	ptr += cAESKeySize;
+	left -= cAESKeySize;
+
+	const uint8 *AESEncryptedBlock = ptr;
+
+	ptr += cAESEncryptedKeySize;
+	left -= cAESEncryptedKeySize;
+
+	rsa_key rsaKey;
+
+	int res = rsa_import(rsaPrivKey.data(), rsaPrivKey.size(), &rsaKey);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error importing RSA key, tomcrypt error %d", res);
+		return RES_ERROR;
+	}
+
+	std::vector< uint8 > aesKey;
+	unsigned long aesKeyLen = 128;
+	aesKey.resize(128);
+	int stat = 0;
+	res = rsa_decrypt_key_ex(AESEncryptedBlock, cAESEncryptedKeySize, aesKey.data(), &aesKeyLen, NULL, 0, find_hash("sha1"), LTC_PKCS_1_OAEP, &stat, &rsaKey);
+	// aesKey.resize(aesKeyLen);
+	rsa_free(&rsaKey);
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error decrypting AES key, tomcrypt error %d", res);
+		return RES_INVARG;
+	}
+
+	if (stat == 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "Encrypted AES key is not OAEP");
+		return RES_INVARG;
+	}
+
+	memcpy(iAppCertHash, ptr, cAppCertHashSize);
+	ptr += cAppCertHashSize;
+	left -= cAppCertHashSize;
+
+	uint32 spcPayloadLength = ( uint32 ) *ptr++ << 24;
+	spcPayloadLength |= ( uint32 ) *ptr++ << 16;
+	spcPayloadLength |= ( uint32 ) *ptr++ << 8;
+	spcPayloadLength |= ( uint32 ) *ptr++;
+	left -= 4;
+
+	if (spcPayloadLength != left) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "SPC payload length does not match data lenth: %d vs %d", spcPayloadLength, left);
+		return RES_INVARG;
+	}
+
+	const uint8 *spcPayload = ptr;
+
+	symmetric_CBC cbc;
+
+	res = cbc_start(find_cipher("aes"), AESInitVector, aesKey.data(), cAESKeySize, 0, &cbc);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error initializing AES CBC: %s", error_to_string(res));
+		return RES_ERROR;
+	}
+
+	iSpcPayload.resize(spcPayloadLength);
+
+	res = cbc_decrypt(spcPayload, iSpcPayload.data(), spcPayloadLength, &cbc);
+
+	if (res != CRYPT_OK) {
+		Log::getInstance().printf(Log::LOG_ERROR, "Error decrypting SPC payload: %s", error_to_string(res));
+		cbc_done(&cbc);
+		return RES_ERROR;
+	}
+
+	cbc_done(&cbc);
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: server/SPC.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_SPC_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_SPC_H__
+
+#include "TLLV.h"
+#include <rg/core/Common.h>
+
+namespace rg {
+
+class SPC
+{
+public:
+	static const unsigned cRSAPrivKeySize = 16;
+	static const unsigned cAppCertHashSize = 20;
+
+	result_t setRSAPrivKey(uint8 RSAPrivKey[cRSAPrivKeySize]);
+	result_t load(const std::vector< uint8 > &rsaKey, const uint8 *buf, size_t size);
+
+	uint8 iAppCertHash[cAppCertHashSize];
+	std::vector< uint8 > iSpcPayload;
+
+private:
+	uint8 iRSAPrivKey[cRSAPrivKeySize];
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_SPC_H__
+
+================
+File: server/TLLV.cpp
+================
+#include "TLLV.h"
+#include <cstdlib>
+
+namespace rg {
+
+int TLLV::deserialize(const uint8 *buf, unsigned size)
+{
+	if (size < cTLLVHeaderSize + cTLLVMinBlockSize) {
+		return RES_INVARG;
+	}
+
+	unsigned bytesLeft = size;
+	unsigned offset = 0;
+	const uint8 *ptr = buf;
+
+	TLLVTag tag = ( uint64 ) *ptr++ << 56;
+	tag |= ( uint64 ) *ptr++ << 48;
+	tag |= ( uint64 ) *ptr++ << 40;
+	tag |= ( uint64 ) *ptr++ << 32;
+	tag |= ( uint64 ) *ptr++ << 24;
+	tag |= ( uint64 ) *ptr++ << 16;
+	tag |= ( uint64 ) *ptr++ << 8;
+	tag |= ( uint64 ) *ptr++;
+	offset += sizeof(tag);
+	bytesLeft -= sizeof(tag);
+
+	uint32 blockSize = ( uint32 ) *ptr++ << 24;
+	blockSize |= ( uint32 ) *ptr++ << 16;
+	blockSize |= ( uint32 ) *ptr++ << 8;
+	blockSize |= ( uint32 ) *ptr++;
+	offset += sizeof(blockSize);
+	bytesLeft -= sizeof(blockSize);
+
+	uint32 valueSize = ( uint32 ) *ptr++ << 24;
+	valueSize |= ( uint32 ) *ptr++ << 16;
+	valueSize |= ( uint32 ) *ptr++ << 8;
+	valueSize |= ( uint32 ) *ptr++;
+	offset += sizeof(valueSize);
+	bytesLeft -= sizeof(valueSize);
+
+	if (blockSize % cTLLVMinBlockSize != 0) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV Block size must be a multiple of 16, actual value %d", blockSize);
+		return RES_INVARG;
+	}
+
+	if (valueSize > blockSize) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV value size exceeds block size: vs %d, bs %d", valueSize, blockSize);
+		return RES_INVARG;
+	}
+
+	if (blockSize > bytesLeft) {
+		Log::getInstance().printf(Log::LOG_DEBUG, "TLLV block size exceeds payload length: bs %d, pl %d", blockSize, bytesLeft);
+		return RES_INVARG;
+	}
+
+	iTag = tag;
+	iValue.clear();
+	iValue.insert(iValue.end(), ptr, ptr + valueSize);
+
+	if (blockSize > valueSize)
+		iPadding.insert(iPadding.end(), ptr + valueSize, ptr + blockSize);
+
+	offset += blockSize;
+
+	return offset;
+}
+
+void TLLV::fillPadding()
+{
+	iPadding.clear();
+	unsigned padBytes = cMaxPaddingSize - iValue.size() % cMaxPaddingSize;
+	if (padBytes != 0) {
+		iPadding.reserve(padBytes);
+		for (unsigned ii = 0; ii < padBytes; ++ii) {
+			iPadding.push_back(rand() % 256);
+		}
+	}
+}
+
+unsigned TLLV::serializeGetSize()
+{
+	return cTLLVHeaderSize + iValue.size() + iPadding.size();
+}
+
+result_t TLLV::serialize(uint8 *buf, unsigned size)
+{
+	if (size < serializeGetSize())
+		return RES_INVARG;
+
+	uint8 *ptr = buf;
+	*ptr++ = (iTag >> 56) & 0xff;
+	*ptr++ = (iTag >> 48) & 0xff;
+	*ptr++ = (iTag >> 40) & 0xff;
+	*ptr++ = (iTag >> 32) & 0xff;
+	*ptr++ = (iTag >> 24) & 0xff;
+	*ptr++ = (iTag >> 16) & 0xff;
+	*ptr++ = (iTag >> 8) & 0xff;
+	*ptr++ = iTag & 0xff;
+
+	uint32 blockLen = iPadding.size() + iValue.size();
+	uint32 valueLen = iValue.size();
+
+	*ptr++ = (blockLen >> 24) & 0xff;
+	*ptr++ = (blockLen >> 16) & 0xff;
+	*ptr++ = (blockLen >> 8) & 0xff;
+	*ptr++ = blockLen & 0xff;
+
+	*ptr++ = (valueLen >> 24) & 0xff;
+	*ptr++ = (valueLen >> 16) & 0xff;
+	*ptr++ = (valueLen >> 8) & 0xff;
+	*ptr++ = valueLen & 0xff;
+
+	memcpy(ptr, iValue.data(), iValue.size());
+	ptr += iValue.size();
+
+	memcpy(ptr, iPadding.data(), iPadding.size());
+
+	return RES_OK;
+}
+
+}; // namespace rg
+
+================
+File: server/TLLV.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+
+#include <rg/core/Common.h>
+#include <vector>
+
+namespace rg {
+
+class TLLV
+{
+public:
+	/// Size of random padding that will be appended to TLLV byte stream during serialization
+	static const unsigned cMaxPaddingSize = 64;
+	/// Size of the TLLV block
+	static const unsigned cTLLVBlockSize = 4;
+	/// Size of the TLLV value
+	static const unsigned cTLLVValueSize = 4;
+
+	typedef uint64 TLLVTag;
+
+	static const unsigned cTLLVHeaderSize = sizeof(TLLVTag) + cTLLVBlockSize + cTLLVValueSize;
+	static const unsigned cTLLVMinBlockSize = 16;
+
+	/** deserialize TLLV from byte stream */
+	int deserialize(const uint8 *buf, unsigned size);
+
+	void fillPadding();
+
+	/** get size that the byte stream would occupy after serialization */
+	unsigned serializeGetSize();
+	/** serialize TLLV from members */
+	result_t serialize(uint8 *buf, unsigned size);
+
+	TLLVTag iTag; /// TLLV tag
+	std::vector< uint8 > iValue; /// TLLV value bytes
+	std::vector< uint8 > iPadding;
+};
+
+enum TLLVSPCTagValues
+{
+	eSKR1 = 0x3d1a10b8bffac2ec,
+	eSKR1Integrity = 0xb349d4809e910687,
+	eARSeed = 0x89c90f12204106b2,
+	eR2 = 0x71b5595ac1521133,
+	eTagReturnRequest = 0x19f9d4e5ab7609cb,
+	eAssetId = 0x1bf7f53f5d5d5a1f,
+	eTransactionId = 0x47aa7ad3440577de,
+	eProtocolVersionsSupported = 0x67b8fb79ecce1a13,
+	eProtocolVersionUsed = 0x5d81bcbcc7f61703,
+	eStreamingIndicator = 0xabb0256a31843974,
+	eMediaPlaybackState = 0xeb8efdf2b25ab3a0,
+};
+
+enum TLLVCKCTagValues
+{
+	eEncryptedCK = 0x58b38165af0e3d5a,
+	eR1 = 0xea74c4645d5efee9,
+	eCKDuration = 0x47acf6a418cd091a,
+	eHDCPEnforcement = 0x2e52f1530d8ddb4a,
+};
+
+}; // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_TLLV_H__
+
+================
+File: server/TomcryptInit.cpp
+================
+#include <tfm.h>
+#include <tomcrypt.h>
+
+static int tomcryptInit()
+{
+	ltc_mp = tfm_desc;
+
+	register_hash(&sha1_desc);
+
+	register_cipher(&aes_desc);
+
+	return 0;
+}
+
+static int dummy = tomcryptInit();
+
+================
+File: server/Utils.cpp
+================
+#include "Utils.h"
+#include <fstream>
+
+namespace rg {
+
+result_t readFileToVector(const std::string &path, std::vector< uint8 > &contents)
+{
+	FILE *fp = fopen(path.c_str(), "rb");
+	if (fp == NULL) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Error opening file: %s", path.c_str());
+		return RES_NOENT;
+	}
+	fseek(fp, 0, SEEK_END);
+	unsigned size = ftell(fp);
+	fseek(fp, 0, SEEK_SET);
+	contents.resize(size);
+	if (size == 0) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Empty file: %s", path.c_str());
+		return RES_NOENT;
+	}
+
+	if (fread(contents.data(), size, 1, fp) != 1) {
+		// Log::getInstance().printf(Log::LOG_ERROR, "Error reading file: %s", path.c_str());
+		fclose(fp);
+		return RES_IOERR;
+	}
+	fclose(fp);
+
+	return RES_OK;
+}
+
+result_t readFileToString(const std::string &path, std::string &contents)
+{
+	std::ifstream file(path);
+	if (!file.is_open())
+		return RES_IOERR;
+
+	file.seekg(0, std::ios::end);
+	contents.reserve(file.tellg());
+	file.seekg(0, std::ios::beg);
+
+	contents.assign((std::istreambuf_iterator< char >(file)), std::istreambuf_iterator< char >());
+	return RES_OK;
+}
+
+}; // end namespace rg
+
+================
+File: server/Utils.h
+================
+#ifndef __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+#define __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+
+#include <rg/core/Common.h>
+
+namespace rg {
+
+result_t readFileToVector(const std::string &path, std::vector< uint8 > &contents);
+
+result_t readFileToString(const std::string &path, std::string &contents);
+
+} // namespace rg
+
+#endif // __ATDS_RG_FAIRPLAY_SERVER_UTILS_H__
+
+================
+File: server/Version.cpp
+================
+#include "Version.h"
+#include <iomanip>
+#include <sstream>
+
+static const unsigned sVerMajor = 1;
+static const unsigned sVerMinor = 2;
+
+static const std::string sVerRc = "rc1";
+
+std::string versionString()
+{
+	std::stringstream stream;
+	stream << sVerMajor << "." << std::setfill('0') << std::setw(2) << sVerMinor;
+	if (!sVerRc.empty())
+		stream << "." << sVerRc;
+	return stream.str();
+}
+
+================
+File: server/Version.h
+================
+#ifndef __RG_FAIRPLAY_SERVER_VERSION_H__
+#define __RG_FAIRPLAY_SERVER_VERSION_H__
+#include <string>
+
+std::string versionString();
+
+#endif // __RG_FAIRPLAY_SERVER_VERSION_H__
+
+================
+File: CMakeLists.txt
+================
+cmake_minimum_required(VERSION 3.16)
+
+set(src ${CMAKE_CURRENT_SOURCE_DIR})
+
+RgExe(rg-cdn-drm-fairplay-server
+	"${src}/server/*.cpp" rg-core
+	INCLUDE "${src}/fairplay/server"
+	LIBRARIES
+		dl
+		gcrypt
+		microhttpd
+		gnutls
+		tomcrypt::lib
+	REQUIRE RG_ORIGIN
+	META rg-meta-cdn-prod
+)
