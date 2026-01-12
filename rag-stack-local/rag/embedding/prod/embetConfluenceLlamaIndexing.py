@@ -38,6 +38,13 @@ def parser():
         default="ZOS",
         metavar="Redge Team name to download confluence"
     )
+    args.add_argument(
+        "--page_id",
+        type=str,
+        required=False,
+        default=None,
+        help="Single Confluence page ID to embed (optional, if not provided uses team filter)"
+    )
     return args.parse_args()
 
 
@@ -79,7 +86,7 @@ class ConfluenceEmbedder(ZosIngestion):
             docstore_strategy=self.insert_strategy,
             cache=self.__cache__,
         )
-        # self._process_confluence_pages()
+        self._process_confluence_pages()
 
         nodes = self.pipeline.run(
             show_progress=True,
@@ -112,6 +119,12 @@ class ConfluenceEmbedder(ZosIngestion):
         )
 
     def _get_confluence_pages_ids_from_last_year(self) -> List[str]:
+        # Jeśli podano page_id - zwróć tylko tę stronę
+        if self.args.page_id:
+            self.logger.info(f"Using single page ID: {self.args.page_id}")
+            return [self.args.page_id]
+        
+        # W przeciwnym razie pobierz wszystkie z query
         self.logger.info("Running last year modified Confluence pages processing")
         return [str(page["id"]) for page in self._query_confluence_pages()["results"]]
 
